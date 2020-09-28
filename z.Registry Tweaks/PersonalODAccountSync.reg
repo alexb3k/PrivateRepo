@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Andrei Alex
+; Information: Bypass for the OneDrive Personal Account Settings.
+; Note: Will enable some blocked services.
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\OneDrive]
+;This key will enable the Personal Account Sync
+"DisablePersonalSync"=dword:00000000

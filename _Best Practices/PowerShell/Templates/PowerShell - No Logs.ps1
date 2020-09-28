@@ -1,7 +1,7 @@
 #requires -version 4
 <#
 .SYNOPSIS
-  Generates OU lists for GP linking
+  <Overview of script>
 
 .DESCRIPTION
   <Brief description of script>
@@ -12,8 +12,8 @@
 .INPUTS
   <Inputs if any, otherwise state None>
 
-.OUTPUTS
-  <Outputs if any, otherwise state None>
+.OUTPUTS Log File
+  The script log file stored in C:\Windows\Temp\<name>.log
 
 .NOTES
   Version:        1.0
@@ -40,9 +40,11 @@ $ErrorActionPreference = 'SilentlyContinue'
 
 #Import Modules & Snap-ins
 
+
 #----------------------------------------------------------[Declarations]----------------------------------------------------------
 
-#Any Global Declarations go here
+#Script Version
+$sScriptVersion = '1.0'
 
 #-----------------------------------------------------------[Functions]------------------------------------------------------------
 
@@ -52,7 +54,7 @@ Function <FunctionName> {
   Param ()
 
   Begin {
-    Write-Host '<description of what is going on>...'
+    Write-LogInfo -LogPath $sLogFile -Message '<description of what is going on>...'
   }
 
   Process {
@@ -61,15 +63,15 @@ Function <FunctionName> {
     }
 
     Catch {
-      Write-Host -BackgroundColor Red "Error: $($_.Exception)"
+      Write-LogError -LogPath $sLogFile -Message $_.Exception -ExitGracefully
       Break
     }
   }
 
   End {
     If ($?) {
-      Write-Host 'Completed Successfully.'
-      Write-Host ' '
+      Write-LogInfo -LogPath $sLogFile -Message 'Completed Successfully.'
+      Write-LogInfo -LogPath $sLogFile -Message ' '
     }
   }
 }
@@ -78,4 +80,6 @@ Function <FunctionName> {
 
 #-----------------------------------------------------------[Execution]------------------------------------------------------------
 
+
 #Script Execution goes here
+
