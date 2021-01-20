@@ -1,0 +1,5 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-01-13 11:32 GTB Standard Time
+Stats: 0:22:35 elapsed; 65536 hosts completed (0 up), 4096 undergoing Ping Scan
+Ping Scan Timing: About 1.53% done; ETC: 11:56 (0:01:05 remaining)
+Stats: 0:25:17 elapsed; 69632 hosts completed (0 up), 4096 undergoing Ping Scan
+Ping Scan Timing: About 93.19% done; ETC: 11:58 (0:00:06 remaining)

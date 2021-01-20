@@ -1,0 +1,97 @@
+
+BlueKeep -IP 172.20.240.0 -Mask 20 > THBKK.txt
+BlueKeep -IP 172.20.0.0 -Mask 17 > THRAY.txt
+
+BlueKeep -IP 172.21.0.0 -Mask 16 > SARUH.txt
+
+BlueKeep -IP 172.22.0.0 -Mask 16 > CHNEU.txt
+
+BlueKeep -IP 172.23.0.0 -Mask 20 > ROCLU.txt
+
+BlueKeep -IP 172.31.0.0 -Mask 17 > SIG-Dubai.txt
+
+BlueKeep -IP 172.19.240.0 -Mask 20 > CNSHA.txt
+BlueKeep -IP 172.19.224.0 -Mask 20 > CNPEK.txt
+BlueKeep -IP 172.19.128.0 -Mask 20 > CNTEC.txt
+BlueKeep -IP 172.19.0.0 -Mask 17 > CNSOU.txt
+
+BlueKeep -IP 172.18.0.0 -Mask 20 > USPHI.txt
+
+BlueKeep -IP 172.17.128.0 -Mask 20 > BRSAO.txt
+BlueKeep -IP 172.17.0.0 -Mask 17 > BRCWB.txt
+
+BlueKeep -IP 172.16.0.0 -Mask 17 > ATSAA.txt
+
+BlueKeep -IP 10.200.57.0 -Mask 24 > MPLSGermanTelekom1.txt
+BlueKeep -IP 10.201.11.0 -Mask 24 > MPLSGermanTelekom2.txt
+
+BlueKeep -IP 10.125.0.0 -Mask 17 > NZWHK-NZAKL.txt
+
+BlueKeep -IP 10.5.0.0 -Mask 24 > NLHEN.txt
+BlueKeep -IP 10.5.1.0 -Mask 24 > UKNCL.txt
+BlueKeep -IP 10.5.3.0 -Mask 24 > ITPMF.txt
+BlueKeep -IP 10.5.4.0 -Mask 24 > RUMOS.txt
+BlueKeep -IP 10.5.6.0 -Mask 24 > ESMAD.txt
+BlueKeep -IP 10.5.8.0 -Mask 24 > DEAAC.txt
+BlueKeep -IP 10.5.10.0 -Mask 24 > FRPAR.txt
+BlueKeep -IP 10.5.100.0 -Mask 24 > DEGEV.txt
+BlueKeep -IP 10.5.101.0 -Mask 24 > DELIN-Kothes.txt
+
+BlueKeep -IP 10.131.208.0 -Mask 24 > DMVPN-Ext-Zivit.txt
+BlueKeep -IP 10.204.16.0 -Mask 24 > DMVPN-ECS-Campina-Verizon1.txt
+BlueKeep -IP 10.213.138.200 -Mask 29 > BRSAO-Voip.txt
+BlueKeep -IP 10.250.7.0 -Mask 24 > DMVPN-ECS-Campina-Verizon2.txt
+
+BlueKeep -IP 172.16.131.0 -Mask 24 > CZHRA.txt
+BlueKeep -IP 172.16.133.0 -Mask 28 > DEFRE.txt
+BlueKeep -IP 172.16.134.0 -Mask 24 > PLWAW.txt
+BlueKeep -IP 172.17.254.0 -Mask 24 > BRITA.txt
+BlueKeep -IP 172.18.30.0 -Mask 24 > MXMEX.txt
+BlueKeep -IP 172.19.143.0 -Mask 24 > CNSOU-CNCAT.txt
+BlueKeep -IP 172.19.144.0 -Mask 24 > IDJKT.txt
+BlueKeep -IP 172.19.145.0 -Mask 24 > TWTPE.txt
+BlueKeep -IP 172.19.146.0 -Mask 24 > KRSEL.txt
+BlueKeep -IP 172.19.147.0 -Mask 24 > VNHCM.txt
+BlueKeep -IP 172.19.148.0 -Mask 24 > CNHO1.txt
+BlueKeep -IP 172.19.150.0 -Mask 24 > CNSUW.txt
+BlueKeep -IP 172.19.152.0 -Mask 24 > MYPET.txt
+BlueKeep -IP 172.19.154.0 -Mask 24 > BDDHA.txt
+
+BlueKeep -IP 192.2.1.0 -Mask 24 > DEHUK.txt
+BlueKeep -IP 192.168.10.0 -Mask 24 > DELIN-CBSY.txt
+BlueKeep -IP 192.168.11.0 -Mask 24 > Ext-Softway-Brasil1.txt
+BlueKeep -IP 192.168.60.0 -Mask 24 > Ext-Softway-Brasil2.txt
+BlueKeep -IP 192.168.80.0 -Mask 24 > NZWHK.txt
+BlueKeep -IP 192.168.101.0 -Mask 24 > SARUH-OIG1.txt
+BlueKeep -IP 192.168.102.0 -Mask 24 > ECS-Tunnel1.txt
+BlueKeep -IP 192.168.103.0 -Mask 24 > ECS-Tunnel2.txt
+BlueKeep -IP 192.168.104.0 -Mask 24 > SARUH-OIG2.txt
+BlueKeep -IP 192.168.105.0 -Mask 24 > Tunnel-DMVPN-SIG-Neu.txt
+
+BlueKeep -IP 192.168.106.0 -Mask 30 > VPN_DELIN_CNSOU1.txt
+BlueKeep -IP 192.168.106.4 -Mask 30 > VPN_DELIN_CNSOU2.txt
+BlueKeep -IP 192.168.106.8 -Mask 30 > VPN_DELIN_CNSOU3.txt
+BlueKeep -IP 192.168.106.12 -Mask 30 > VPN_DELIN_CNSOU4.txt
+BlueKeep -IP 192.168.106.16 -Mask 30 > VPN_DELIN_CNSOU5.txt
+BlueKeep -IP 192.168.106.20 -Mask 30 > VPN_DELIN_CNSOU6.txt
+BlueKeep -IP 192.168.106.24 -Mask 30 > FlexVPN-DELIN-THRAY.txt
+BlueKeep -IP 192.168.106.28 -Mask 30 > FlexVPN-DELIN-BRCWB.txt
+BlueKeep -IP 192.168.106.32 -Mask 30 > FlexVPN-DELIN-CNSOU.txt
+BlueKeep -IP 192.168.106.36 -Mask 30 > FlexVPN-DELIN-AEDUB.txt
+
+BlueKeep -IP 192.168.108.0 -Mask 24 > SARUH-OIG3.txt
+BlueKeep -IP 192.168.122.0 -Mask 24 > Ext-Imagine.txt
+BlueKeep -IP 192.168.144.0 -Mask 24 > SARUH-OIG4.txt
+BlueKeep -IP 192.168.178.128 -Mask 25 > Ext-Propers.txt
+BlueKeep -IP 192.168.200.0 -Mask 29 > Transfer-BRCWB-BRSAO.txt
+BlueKeep -IP 192.168.200.8 -Mask 29 > EXT-Kothes.txt
+BlueKeep -IP 192.168.243.0 -Mask 24 > SARUH-OIG5.txt
+BlueKeep -IP 192.69.46.0 -Mask 24 > DELIN-SAP.txt
+
+BlueKeep -IP 10.1.0.0 -Mask 16 > DELIN.txt
+BlueKeep -IP 10.2.0.0 -Mask 16 > DEWIT.txt
+BlueKeep -IP 10.3.0.0 -Mask 20 > DENEU.txt
+
+BlueKeep -IP 10.14.0.0 -Mask 15 > ECS.txt
+BlueKeep -IP 10.16.0.0 -Mask 13 > cConnect.txt
+BlueKeep -IP 10.32.0.0 -Mask 12 > Plant360.txt

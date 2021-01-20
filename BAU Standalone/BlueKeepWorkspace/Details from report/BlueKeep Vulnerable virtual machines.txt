@@ -1,0 +1,1977 @@
+
+Pinging TWTPE-C-VMTEST3 [172.19.145.73] with 32 bytes of data:
+Reply from 172.19.145.73: bytes=32 time=330ms TTL=125
+Reply from 172.19.145.73: bytes=32 time=351ms TTL=125
+Reply from 172.19.145.73: bytes=32 time=377ms TTL=125
+Reply from 172.19.145.73: bytes=32 time=332ms TTL=125
+
+Ping statistics for 172.19.145.73:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 330ms, Maximum = 377ms, Average = 347ms
+
+Pinging thrayvmas035.sig.dom [172.20.10.35] with 32 bytes of data:
+Reply from 172.20.10.35: bytes=32 time=234ms TTL=124
+Reply from 172.20.10.35: bytes=32 time=242ms TTL=124
+Reply from 172.20.10.35: bytes=32 time=230ms TTL=124
+Request timed out.
+
+Ping statistics for 172.20.10.35:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 242ms, Average = 235ms
+
+Pinging thrayvmas037.sig.dom [172.20.10.37] with 32 bytes of data:
+Reply from 172.20.10.37: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.37: bytes=32 time=249ms TTL=124
+Reply from 172.20.10.37: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.37: bytes=32 time=276ms TTL=124
+
+Ping statistics for 172.20.10.37:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 276ms, Average = 246ms
+
+Pinging thrayvmas046.sig.dom [172.20.10.56] with 32 bytes of data:
+Reply from 172.20.10.56: bytes=32 time=232ms TTL=124
+Reply from 172.20.10.56: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.56: bytes=32 time=230ms TTL=124
+Request timed out.
+
+Ping statistics for 172.20.10.56:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 232ms, Average = 230ms
+
+Pinging thrayvmas036.sig.dom [172.20.10.36] with 32 bytes of data:
+Reply from 172.20.10.36: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.36: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.36: bytes=32 time=258ms TTL=124
+Reply from 172.20.10.36: bytes=32 time=263ms TTL=124
+
+Ping statistics for 172.20.10.36:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 263ms, Average = 245ms
+
+Pinging 172.20.10.63 with 32 bytes of data:
+Reply from 172.20.10.63: bytes=32 time=247ms TTL=124
+Reply from 172.20.10.63: bytes=32 time=258ms TTL=124
+Reply from 172.20.10.63: bytes=32 time=230ms TTL=124
+Request timed out.
+
+Ping statistics for 172.20.10.63:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 258ms, Average = 245ms
+
+Pinging thrayvmas039.sig.dom [172.20.10.39] with 32 bytes of data:
+Reply from 172.20.10.39: bytes=32 time=231ms TTL=124
+Reply from 172.20.10.39: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.39: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.39: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.10.39:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 231ms, Average = 230ms
+
+Pinging thray-c-0088694.sig.dom [172.20.10.103] with 32 bytes of data:
+Reply from 172.20.10.103: bytes=32 time=247ms TTL=124
+Reply from 172.20.10.103: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.103: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.103: bytes=32 time=232ms TTL=124
+
+Ping statistics for 172.20.10.103:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 247ms, Average = 234ms
+
+Pinging thrayvmastst.sig.dom [172.20.10.189] with 32 bytes of data:
+Reply from 172.20.10.189: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.189: bytes=32 time=278ms TTL=124
+Reply from 172.20.10.189: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.189: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.10.189:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 278ms, Average = 242ms
+
+Pinging thrayvmas028.sig.dom [172.20.10.28] with 32 bytes of data:
+Reply from 172.20.10.28: bytes=32 time=237ms TTL=124
+Reply from 172.20.10.28: bytes=32 time=240ms TTL=124
+Reply from 172.20.10.28: bytes=32 time=257ms TTL=124
+Reply from 172.20.10.28: bytes=32 time=246ms TTL=124
+
+Ping statistics for 172.20.10.28:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 237ms, Maximum = 257ms, Average = 245ms
+
+Pinging 172.20.31.49 with 32 bytes of data:
+Reply from 172.20.31.49: bytes=32 time=231ms TTL=124
+Reply from 172.20.31.49: bytes=32 time=231ms TTL=124
+Reply from 172.20.31.49: bytes=32 time=232ms TTL=124
+Reply from 172.20.31.49: bytes=32 time=232ms TTL=124
+
+Ping statistics for 172.20.31.49:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 231ms, Maximum = 232ms, Average = 231ms
+
+Pinging LCCD [172.20.71.34] with 32 bytes of data:
+Reply from 172.20.71.34: bytes=32 time=235ms TTL=124
+Reply from 172.20.71.34: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.34: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.34: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.71.34:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 235ms, Average = 231ms
+
+Pinging FUELLSERVER [172.20.71.227] with 32 bytes of data:
+Reply from 172.20.71.227: bytes=32 time=236ms TTL=124
+Reply from 172.20.71.227: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.227: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.227: bytes=32 time=243ms TTL=124
+
+Ping statistics for 172.20.71.227:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 243ms, Average = 234ms
+
+Pinging thray-v-0099698.sig.dom [172.20.10.253] with 32 bytes of data:
+Reply from 172.20.10.253: bytes=32 time=230ms TTL=124
+Reply from 172.20.10.253: bytes=32 time=269ms TTL=124
+Reply from 172.20.10.253: bytes=32 time=270ms TTL=124
+Reply from 172.20.10.253: bytes=32 time=231ms TTL=124
+
+Ping statistics for 172.20.10.253:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 270ms, Average = 250ms
+
+Pinging ENGSTATION [172.20.71.198] with 32 bytes of data:
+Reply from 172.20.71.198: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.198: bytes=32 time=275ms TTL=124
+Reply from 172.20.71.198: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.198: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.71.198:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 275ms, Average = 241ms
+
+Pinging THRAYVMWS001 [172.20.34.2] with 32 bytes of data:
+Reply from 172.20.34.2: bytes=32 time=230ms TTL=124
+Reply from 172.20.34.2: bytes=32 time=232ms TTL=124
+Reply from 172.20.34.2: bytes=32 time=230ms TTL=124
+Reply from 172.20.34.2: bytes=32 time=255ms TTL=124
+
+Ping statistics for 172.20.34.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 255ms, Average = 236ms
+
+Pinging SIG2-PC [172.20.71.242] with 32 bytes of data:
+Reply from 172.20.71.242: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.242: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.242: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.242: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.71.242:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 230ms, Average = 230ms
+
+Pinging FUELLCLIENT [172.20.71.229] with 32 bytes of data:
+Reply from 172.20.71.229: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.229: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.229: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.229: bytes=32 time=231ms TTL=124
+
+Ping statistics for 172.20.71.229:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 231ms, Average = 230ms
+
+Pinging DISPENSING [172.20.71.228] with 32 bytes of data:
+Reply from 172.20.71.228: bytes=32 time=231ms TTL=124
+Reply from 172.20.71.228: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.228: bytes=32 time=230ms TTL=124
+Reply from 172.20.71.228: bytes=32 time=230ms TTL=124
+
+Ping statistics for 172.20.71.228:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 230ms, Maximum = 231ms, Average = 230ms
+
+Pinging thbkk-c-vmtest.sig.dom [172.20.248.51] with 32 bytes of data:
+Reply from 172.20.248.51: bytes=32 time=235ms TTL=121
+Reply from 172.20.248.51: bytes=32 time=259ms TTL=121
+Reply from 172.20.248.51: bytes=32 time=235ms TTL=121
+Reply from 172.20.248.51: bytes=32 time=235ms TTL=121
+
+Ping statistics for 172.20.248.51:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 235ms, Maximum = 259ms, Average = 241ms
+
+Pinging saruhvmas024.sig.dom [172.21.8.124] with 32 bytes of data:
+Request timed out.
+Reply from 172.21.8.124: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.124: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.124: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.124:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 158ms, Average = 158ms
+
+Pinging 172.21.8.122 with 32 bytes of data:
+Reply from 172.21.8.122: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.122: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.122: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.122: bytes=32 time=156ms TTL=124
+
+Ping statistics for 172.21.8.122:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 156ms, Maximum = 158ms, Average = 157ms
+
+Pinging 172.21.8.121 with 32 bytes of data:
+Reply from 172.21.8.121: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.121: bytes=32 time=175ms TTL=124
+Reply from 172.21.8.121: bytes=32 time=159ms TTL=124
+Reply from 172.21.8.121: bytes=32 time=159ms TTL=124
+
+Ping statistics for 172.21.8.121:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 175ms, Average = 162ms
+
+Pinging 172.21.8.126 with 32 bytes of data:
+Reply from 172.21.8.126: bytes=32 time=161ms TTL=124
+Reply from 172.21.8.126: bytes=32 time=162ms TTL=124
+Reply from 172.21.8.126: bytes=32 time=178ms TTL=124
+Reply from 172.21.8.126: bytes=32 time=164ms TTL=124
+
+Ping statistics for 172.21.8.126:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 161ms, Maximum = 178ms, Average = 166ms
+
+Pinging 172.21.8.111 with 32 bytes of data:
+Reply from 172.21.8.111: bytes=32 time=166ms TTL=124
+Reply from 172.21.8.111: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.111: bytes=32 time=164ms TTL=124
+Reply from 172.21.8.111: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.111:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 166ms, Average = 162ms
+
+Pinging saruhcwi.sig.dom [172.21.8.110] with 32 bytes of data:
+Reply from 172.21.8.110: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.110: bytes=32 time=161ms TTL=124
+Reply from 172.21.8.110: bytes=32 time=162ms TTL=124
+Reply from 172.21.8.110: bytes=32 time=161ms TTL=124
+
+Ping statistics for 172.21.8.110:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 162ms, Average = 160ms
+
+Pinging saruhvmas023.sig.dom [172.21.8.123] with 32 bytes of data:
+Reply from 172.21.8.123: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.123: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.123: bytes=32 time=164ms TTL=124
+Reply from 172.21.8.123: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.123:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 164ms, Average = 160ms
+
+Pinging 172.21.8.125 with 32 bytes of data:
+Reply from 172.21.8.125: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.125: bytes=32 time=168ms TTL=124
+Reply from 172.21.8.125: bytes=32 time=202ms TTL=124
+Reply from 172.21.8.125: bytes=32 time=162ms TTL=124
+
+Ping statistics for 172.21.8.125:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 160ms, Maximum = 202ms, Average = 173ms
+
+Pinging SARUHVMAS027.sig.dom [172.21.8.127] with 32 bytes of data:
+Reply from 172.21.8.127: bytes=32 time=166ms TTL=124
+Reply from 172.21.8.127: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.127: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.127: bytes=32 time=184ms TTL=124
+
+Ping statistics for 172.21.8.127:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 184ms, Average = 166ms
+
+Pinging 172.21.8.136 with 32 bytes of data:
+Reply from 172.21.8.136: bytes=32 time=171ms TTL=124
+Reply from 172.21.8.136: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.136: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.136: bytes=32 time=201ms TTL=124
+
+Ping statistics for 172.21.8.136:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 201ms, Average = 172ms
+
+Pinging SARUHVMAS029.sig.dom [172.21.8.129] with 32 bytes of data:
+Reply from 172.21.8.129: bytes=32 time=170ms TTL=124
+Reply from 172.21.8.129: bytes=32 time=172ms TTL=124
+Reply from 172.21.8.129: bytes=32 time=159ms TTL=124
+Reply from 172.21.8.129: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.129:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 172ms, Average = 164ms
+
+Pinging 172.21.8.128 with 32 bytes of data:
+Reply from 172.21.8.128: bytes=32 time=207ms TTL=124
+Reply from 172.21.8.128: bytes=32 time=161ms TTL=124
+Reply from 172.21.8.128: bytes=32 time=162ms TTL=124
+Reply from 172.21.8.128: bytes=32 time=201ms TTL=124
+
+Ping statistics for 172.21.8.128:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 161ms, Maximum = 207ms, Average = 182ms
+
+Pinging 172.21.8.135 with 32 bytes of data:
+Reply from 172.21.8.135: bytes=32 time=205ms TTL=124
+Reply from 172.21.8.135: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.135: bytes=32 time=208ms TTL=124
+Reply from 172.21.8.135: bytes=32 time=161ms TTL=124
+
+Ping statistics for 172.21.8.135:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 208ms, Average = 182ms
+
+Pinging 172.21.8.137 with 32 bytes of data:
+Reply from 172.21.8.137: bytes=32 time=159ms TTL=124
+Reply from 172.21.8.137: bytes=32 time=163ms TTL=124
+Reply from 172.21.8.137: bytes=32 time=177ms TTL=124
+Reply from 172.21.8.137: bytes=32 time=162ms TTL=124
+
+Ping statistics for 172.21.8.137:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 159ms, Maximum = 177ms, Average = 165ms
+
+Pinging SARUHVMAS039.sig.dom [172.21.8.139] with 32 bytes of data:
+Reply from 172.21.8.139: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.139: bytes=32 time=200ms TTL=124
+Reply from 172.21.8.139: bytes=32 time=167ms TTL=124
+Reply from 172.21.8.139: bytes=32 time=159ms TTL=124
+
+Ping statistics for 172.21.8.139:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 159ms, Maximum = 200ms, Average = 171ms
+
+Pinging SARUH-V-0073776.sig.dom [172.21.8.176] with 32 bytes of data:
+Reply from 172.21.8.176: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.176: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.176: bytes=32 time=163ms TTL=124
+Reply from 172.21.8.176: bytes=32 time=188ms TTL=124
+
+Ping statistics for 172.21.8.176:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 188ms, Average = 166ms
+
+Pinging SARUHVMAS030.sig.dom [172.21.8.130] with 32 bytes of data:
+Reply from 172.21.8.130: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.130: bytes=32 time=178ms TTL=124
+Reply from 172.21.8.130: bytes=32 time=170ms TTL=124
+Reply from 172.21.8.130: bytes=32 time=159ms TTL=124
+
+Ping statistics for 172.21.8.130:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 178ms, Average = 166ms
+
+Pinging 172.21.8.138 with 32 bytes of data:
+Reply from 172.21.8.138: bytes=32 time=161ms TTL=124
+Reply from 172.21.8.138: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.138: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.138: bytes=32 time=182ms TTL=124
+
+Ping statistics for 172.21.8.138:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 182ms, Average = 164ms
+
+Pinging SARUHVMAS040.sig.dom [172.21.8.140] with 32 bytes of data:
+Reply from 172.21.8.140: bytes=32 time=180ms TTL=124
+Reply from 172.21.8.140: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.140: bytes=32 time=164ms TTL=124
+Reply from 172.21.8.140: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.140:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 157ms, Maximum = 180ms, Average = 164ms
+
+Pinging 172.21.8.103 with 32 bytes of data:
+Reply from 172.21.8.103: bytes=32 time=161ms TTL=124
+Reply from 172.21.8.103: bytes=32 time=159ms TTL=124
+Request timed out.
+Reply from 172.21.8.103: bytes=32 time=183ms TTL=124
+
+Ping statistics for 172.21.8.103:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 159ms, Maximum = 183ms, Average = 167ms
+
+Pinging 172.21.8.112 with 32 bytes of data:
+Reply from 172.21.8.112: bytes=32 time=162ms TTL=124
+Reply from 172.21.8.112: bytes=32 time=160ms TTL=124
+Reply from 172.21.8.112: bytes=32 time=159ms TTL=124
+Reply from 172.21.8.112: bytes=32 time=158ms TTL=124
+
+Ping statistics for 172.21.8.112:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 162ms, Average = 159ms
+
+Pinging 172.21.8.114 with 32 bytes of data:
+Reply from 172.21.8.114: bytes=32 time=162ms TTL=124
+Reply from 172.21.8.114: bytes=32 time=158ms TTL=124
+Reply from 172.21.8.114: bytes=32 time=159ms TTL=124
+Reply from 172.21.8.114: bytes=32 time=203ms TTL=124
+
+Ping statistics for 172.21.8.114:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 158ms, Maximum = 203ms, Average = 170ms
+
+Pinging 172.21.8.113 with 32 bytes of data:
+Reply from 172.21.8.113: bytes=32 time=156ms TTL=124
+Reply from 172.21.8.113: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.113: bytes=32 time=157ms TTL=124
+Reply from 172.21.8.113: bytes=32 time=156ms TTL=124
+
+Ping statistics for 172.21.8.113:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 156ms, Maximum = 157ms, Average = 156ms
+Ping request could not find host 13:00. Please check the name and try again.
+
+Pinging nzwhkvmdb090.sig.dom [10.125.2.90] with 32 bytes of data:
+Reply from 10.125.2.90: bytes=32 time=324ms TTL=123
+Reply from 10.125.2.90: bytes=32 time=323ms TTL=123
+Request timed out.
+Reply from 10.125.2.90: bytes=32 time=323ms TTL=123
+
+Ping statistics for 10.125.2.90:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 323ms, Maximum = 324ms, Average = 323ms
+
+Pinging nzwhkvmdb017.sig.dom [10.125.2.33] with 32 bytes of data:
+Reply from 10.125.2.33: bytes=32 time=323ms TTL=123
+Reply from 10.125.2.33: bytes=32 time=324ms TTL=123
+Reply from 10.125.2.33: bytes=32 time=323ms TTL=123
+Reply from 10.125.2.33: bytes=32 time=323ms TTL=123
+
+Ping statistics for 10.125.2.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 323ms, Maximum = 324ms, Average = 323ms
+
+Pinging nzwhkvmdb091.sig.dom [10.125.2.101] with 32 bytes of data:
+Reply from 10.125.2.101: bytes=32 time=325ms TTL=123
+Reply from 10.125.2.101: bytes=32 time=322ms TTL=123
+Reply from 10.125.2.101: bytes=32 time=322ms TTL=123
+Reply from 10.125.2.101: bytes=32 time=322ms TTL=123
+
+Ping statistics for 10.125.2.101:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 322ms, Maximum = 325ms, Average = 322ms
+
+Pinging 10.125.22.19 with 32 bytes of data:
+Reply from 10.125.22.19: bytes=32 time=323ms TTL=123
+Reply from 10.125.22.19: bytes=32 time=323ms TTL=123
+Reply from 10.125.22.19: bytes=32 time=323ms TTL=123
+Reply from 10.125.22.19: bytes=32 time=376ms TTL=123
+
+Ping statistics for 10.125.22.19:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 323ms, Maximum = 376ms, Average = 336ms
+
+Pinging nzwhkvmdb023.sig.dom [10.125.2.36] with 32 bytes of data:
+Reply from 10.125.2.36: bytes=32 time=333ms TTL=123
+Reply from 10.125.2.36: bytes=32 time=323ms TTL=123
+Reply from 10.125.2.36: bytes=32 time=322ms TTL=123
+Reply from 10.125.2.36: bytes=32 time=357ms TTL=123
+
+Ping statistics for 10.125.2.36:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 322ms, Maximum = 357ms, Average = 333ms
+
+Pinging 92.168.80.8 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 92.168.80.8:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging 192.168.80.9 with 32 bytes of data:
+Reply from 192.168.80.9: bytes=32 time=324ms TTL=123
+Reply from 192.168.80.9: bytes=32 time=358ms TTL=123
+Reply from 192.168.80.9: bytes=32 time=328ms TTL=123
+Reply from 192.168.80.9: bytes=32 time=333ms TTL=123
+
+Ping statistics for 192.168.80.9:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 324ms, Maximum = 358ms, Average = 335ms
+
+Pinging KRSEL-C-VMTEST [172.19.146.125] with 32 bytes of data:
+Reply from 172.19.146.125: bytes=32 time=365ms TTL=125
+Reply from 172.19.146.125: bytes=32 time=390ms TTL=125
+Reply from 172.19.146.125: bytes=32 time=401ms TTL=125
+Reply from 172.19.146.125: bytes=32 time=382ms TTL=125
+
+Ping statistics for 172.19.146.125:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 365ms, Maximum = 401ms, Average = 384ms
+
+Pinging 172.19.144.109 with 32 bytes of data:
+Reply from 172.19.144.109: bytes=32 time=316ms TTL=125
+Reply from 172.19.144.109: bytes=32 time=304ms TTL=125
+Reply from 172.19.144.109: bytes=32 time=333ms TTL=125
+Reply from 172.19.144.109: bytes=32 time=307ms TTL=125
+
+Ping statistics for 172.19.144.109:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 304ms, Maximum = 333ms, Average = 315ms
+
+Pinging FUELLSERVER [10.2.21.7] with 32 bytes of data:
+Reply from 10.2.21.7: bytes=32 time=44ms TTL=124
+Reply from 10.2.21.7: bytes=32 time=87ms TTL=124
+Reply from 10.2.21.7: bytes=32 time=45ms TTL=124
+Reply from 10.2.21.7: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.21.7:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 87ms, Average = 55ms
+
+Pinging dewitvmas101.sig.dom [10.2.10.111] with 32 bytes of data:
+Reply from 10.2.10.111: bytes=32 time=52ms TTL=124
+Reply from 10.2.10.111: bytes=32 time=49ms TTL=124
+Reply from 10.2.10.111: bytes=32 time=46ms TTL=124
+Reply from 10.2.10.111: bytes=32 time=78ms TTL=124
+
+Ping statistics for 10.2.10.111:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 46ms, Maximum = 78ms, Average = 56ms
+
+Pinging 10.2.23.22 with 32 bytes of data:
+Reply from 10.2.23.22: bytes=32 time=93ms TTL=124
+Reply from 10.2.23.22: bytes=32 time=43ms TTL=124
+Reply from 10.2.23.22: bytes=32 time=49ms TTL=124
+Reply from 10.2.23.22: bytes=32 time=63ms TTL=124
+
+Ping statistics for 10.2.23.22:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 93ms, Average = 62ms
+
+Pinging dewitvmdb090.sig.dom [10.2.10.50] with 32 bytes of data:
+Reply from 10.2.10.50: bytes=32 time=47ms TTL=124
+Reply from 10.2.10.50: bytes=32 time=44ms TTL=124
+Reply from 10.2.10.50: bytes=32 time=72ms TTL=124
+Reply from 10.2.10.50: bytes=32 time=78ms TTL=124
+
+Ping statistics for 10.2.10.50:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 78ms, Average = 60ms
+
+Pinging dewit-c-0078789.sig.dom [10.2.21.35] with 32 bytes of data:
+Reply from 10.2.21.35: bytes=32 time=80ms TTL=124
+Reply from 10.2.21.35: bytes=32 time=77ms TTL=124
+Reply from 10.2.21.35: bytes=32 time=73ms TTL=124
+Reply from 10.2.21.35: bytes=32 time=43ms TTL=124
+
+Ping statistics for 10.2.21.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 80ms, Average = 68ms
+
+Pinging dewit-c-0110006.sig.dom [10.2.70.86] with 32 bytes of data:
+Reply from 10.2.70.86: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.86: bytes=32 time=74ms TTL=124
+Reply from 10.2.70.86: bytes=32 time=88ms TTL=124
+Request timed out.
+
+Ping statistics for 10.2.70.86:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 88ms, Average = 68ms
+
+Pinging dewit-c-0110004.sig.dom [10.2.70.84] with 32 bytes of data:
+Reply from 10.2.70.84: bytes=32 time=82ms TTL=124
+Reply from 10.2.70.84: bytes=32 time=90ms TTL=124
+Reply from 10.2.70.84: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.84: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.70.84:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 90ms, Average = 65ms
+
+Pinging DEWIT-C-0090821 [10.2.50.36] with 32 bytes of data:
+Reply from 10.2.50.36: bytes=32 time=54ms TTL=124
+Reply from 10.2.50.36: bytes=32 time=105ms TTL=124
+Reply from 10.2.50.36: bytes=32 time=49ms TTL=124
+Reply from 10.2.50.36: bytes=32 time=49ms TTL=124
+
+Ping statistics for 10.2.50.36:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 49ms, Maximum = 105ms, Average = 64ms
+
+Pinging dewit-v-0096856.sig.dom [10.2.24.47] with 32 bytes of data:
+Reply from 10.2.24.47: bytes=32 time=43ms TTL=124
+Reply from 10.2.24.47: bytes=32 time=44ms TTL=124
+Reply from 10.2.24.47: bytes=32 time=43ms TTL=124
+Reply from 10.2.24.47: bytes=32 time=59ms TTL=124
+
+Ping statistics for 10.2.24.47:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 59ms, Average = 47ms
+
+Pinging dewit-c-0111547.sig.dom [10.2.70.88] with 32 bytes of data:
+Reply from 10.2.70.88: bytes=32 time=78ms TTL=124
+Reply from 10.2.70.88: bytes=32 time=51ms TTL=124
+Reply from 10.2.70.88: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.88: bytes=32 time=47ms TTL=124
+
+Ping statistics for 10.2.70.88:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 78ms, Average = 55ms
+
+Pinging dewit-c-0110002.sig.dom [10.2.70.82] with 32 bytes of data:
+Reply from 10.2.70.82: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.82: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.82: bytes=32 time=44ms TTL=124
+Request timed out.
+
+Ping statistics for 10.2.70.82:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 44ms, Average = 44ms
+
+Pinging dewit-c-0110005.sig.dom [10.2.70.85] with 32 bytes of data:
+Reply from 10.2.70.85: bytes=32 time=47ms TTL=124
+Reply from 10.2.70.85: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.85: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.85: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.70.85:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 47ms, Average = 44ms
+
+Pinging dewit-c-0110001.sig.dom [10.2.70.81] with 32 bytes of data:
+Reply from 10.2.70.81: bytes=32 time=47ms TTL=124
+Reply from 10.2.70.81: bytes=32 time=46ms TTL=124
+Reply from 10.2.70.81: bytes=32 time=51ms TTL=124
+Reply from 10.2.70.81: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.70.81:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 51ms, Average = 47ms
+
+Pinging dewit-c-0110003.sig.dom [10.2.70.83] with 32 bytes of data:
+Reply from 10.2.70.83: bytes=32 time=43ms TTL=124
+Reply from 10.2.70.83: bytes=32 time=43ms TTL=124
+Reply from 10.2.70.83: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.83: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.70.83:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 44ms, Average = 43ms
+
+Pinging dewit-c-0111546.sig.dom [10.2.70.87] with 32 bytes of data:
+Reply from 10.2.70.87: bytes=32 time=44ms TTL=124
+Reply from 10.2.70.87: bytes=32 time=48ms TTL=124
+Reply from 10.2.70.87: bytes=32 time=83ms TTL=124
+Reply from 10.2.70.87: bytes=32 time=44ms TTL=124
+
+Ping statistics for 10.2.70.87:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 44ms, Maximum = 83ms, Average = 54ms
+
+Pinging dewitvmws114.sig.dom [10.2.40.114] with 32 bytes of data:
+Reply from 10.2.40.114: bytes=32 time=44ms TTL=124
+Reply from 10.2.40.114: bytes=32 time=43ms TTL=124
+Reply from 10.2.40.114: bytes=32 time=43ms TTL=124
+Reply from 10.2.40.114: bytes=32 time=43ms TTL=124
+
+Ping statistics for 10.2.40.114:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 44ms, Average = 43ms
+
+Pinging CNSOUVMAS038.sig.dom [172.19.5.78] with 32 bytes of data:
+Reply from 172.19.5.78: bytes=32 time=305ms TTL=123
+Reply from 172.19.5.78: bytes=32 time=327ms TTL=123
+Reply from 172.19.5.78: bytes=32 time=313ms TTL=123
+Reply from 172.19.5.78: bytes=32 time=279ms TTL=123
+
+Ping statistics for 172.19.5.78:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 327ms, Average = 306ms
+
+Pinging CNSOU-V-0075661 [172.19.10.10] with 32 bytes of data:
+Reply from 172.19.10.10: bytes=32 time=301ms TTL=123
+Reply from 172.19.10.10: bytes=32 time=309ms TTL=123
+Reply from 172.19.10.10: bytes=32 time=320ms TTL=123
+Reply from 172.19.10.10: bytes=32 time=329ms TTL=123
+
+Ping statistics for 172.19.10.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 301ms, Maximum = 329ms, Average = 314ms
+
+Pinging CNSOU-V-0107120.sig.dom [172.19.10.70] with 32 bytes of data:
+Reply from 172.19.10.70: bytes=32 time=279ms TTL=123
+Reply from 172.19.10.70: bytes=32 time=279ms TTL=123
+Reply from 172.19.10.70: bytes=32 time=291ms TTL=123
+Reply from 172.19.10.70: bytes=32 time=301ms TTL=123
+
+Ping statistics for 172.19.10.70:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 301ms, Average = 287ms
+
+Pinging ISRA221532_MA [172.19.15.205] with 32 bytes of data:
+Reply from 172.19.15.205: bytes=32 time=283ms TTL=123
+Reply from 172.19.15.205: bytes=32 time=279ms TTL=123
+Reply from 172.19.15.205: bytes=32 time=301ms TTL=123
+Reply from 172.19.15.205: bytes=32 time=306ms TTL=123
+
+Ping statistics for 172.19.15.205:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 306ms, Average = 292ms
+
+Pinging 172.19.15.108 with 32 bytes of data:
+Reply from 172.19.15.108: bytes=32 time=308ms TTL=123
+Reply from 172.19.15.108: bytes=32 time=280ms TTL=123
+Reply from 172.19.15.108: bytes=32 time=278ms TTL=123
+Reply from 172.19.15.108: bytes=32 time=306ms TTL=123
+
+Ping statistics for 172.19.15.108:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 278ms, Maximum = 308ms, Average = 293ms
+
+Pinging CNSOU-V-0042996.sig.dom [172.19.10.113] with 32 bytes of data:
+Request timed out.
+Reply from 172.19.10.113: bytes=32 time=296ms TTL=123
+Reply from 172.19.10.113: bytes=32 time=292ms TTL=123
+Reply from 172.19.10.113: bytes=32 time=302ms TTL=123
+
+Ping statistics for 172.19.10.113:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 292ms, Maximum = 302ms, Average = 296ms
+
+Pinging CNSOU-V-0069222 [172.19.10.222] with 32 bytes of data:
+Reply from 172.19.10.222: bytes=32 time=319ms TTL=123
+Reply from 172.19.10.222: bytes=32 time=318ms TTL=123
+Reply from 172.19.10.222: bytes=32 time=279ms TTL=123
+Request timed out.
+
+Ping statistics for 172.19.10.222:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 319ms, Average = 305ms
+
+Pinging CNSOUVMTST2K8R2.sig.dom [172.19.10.116] with 32 bytes of data:
+Reply from 172.19.10.116: bytes=32 time=301ms TTL=123
+Reply from 172.19.10.116: bytes=32 time=279ms TTL=123
+Reply from 172.19.10.116: bytes=32 time=303ms TTL=123
+Reply from 172.19.10.116: bytes=32 time=279ms TTL=123
+
+Ping statistics for 172.19.10.116:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 303ms, Average = 290ms
+
+Pinging CNSOU-C-0084188 [172.19.21.12] with 32 bytes of data:
+Reply from 172.19.21.12: bytes=32 time=293ms TTL=123
+Reply from 172.19.21.12: bytes=32 time=300ms TTL=123
+Reply from 172.19.21.12: bytes=32 time=334ms TTL=123
+Reply from 172.19.21.12: bytes=32 time=311ms TTL=123
+
+Ping statistics for 172.19.21.12:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 293ms, Maximum = 334ms, Average = 309ms
+
+Pinging 172.19.20.35 with 32 bytes of data:
+Reply from 172.19.20.35: bytes=32 time=310ms TTL=123
+Reply from 172.19.20.35: bytes=32 time=278ms TTL=123
+Reply from 172.19.20.35: bytes=32 time=315ms TTL=123
+Reply from 172.19.20.35: bytes=32 time=279ms TTL=123
+
+Ping statistics for 172.19.20.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 278ms, Maximum = 315ms, Average = 295ms
+
+Pinging 172.19.20.31 with 32 bytes of data:
+Reply from 172.19.20.31: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.31: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.31: bytes=32 time=291ms TTL=123
+Reply from 172.19.20.31: bytes=32 time=302ms TTL=123
+
+Ping statistics for 172.19.20.31:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 302ms, Average = 287ms
+
+Pinging CNSOU-C-0080434 [172.19.31.77] with 32 bytes of data:
+Reply from 172.19.31.77: bytes=32 time=285ms TTL=123
+Reply from 172.19.31.77: bytes=32 time=305ms TTL=123
+Reply from 172.19.31.77: bytes=32 time=290ms TTL=123
+Reply from 172.19.31.77: bytes=32 time=303ms TTL=123
+
+Ping statistics for 172.19.31.77:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 285ms, Maximum = 305ms, Average = 295ms
+
+Pinging CNSOU-C-0069696 [172.19.31.60] with 32 bytes of data:
+Reply from 172.19.31.60: bytes=32 time=294ms TTL=123
+Reply from 172.19.31.60: bytes=32 time=302ms TTL=123
+Reply from 172.19.31.60: bytes=32 time=307ms TTL=123
+Reply from 172.19.31.60: bytes=32 time=285ms TTL=123
+
+Ping statistics for 172.19.31.60:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 285ms, Maximum = 307ms, Average = 297ms
+
+Pinging 172.19.20.34 with 32 bytes of data:
+Reply from 172.19.20.34: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.34: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.34: bytes=32 time=302ms TTL=123
+Reply from 172.19.20.34: bytes=32 time=299ms TTL=123
+
+Ping statistics for 172.19.20.34:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 302ms, Average = 289ms
+
+Pinging 172.19.20.115 with 32 bytes of data:
+Reply from 172.19.20.115: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.115: bytes=32 time=279ms TTL=123
+Reply from 172.19.20.115: bytes=32 time=292ms TTL=123
+Reply from 172.19.20.115: bytes=32 time=297ms TTL=123
+
+Ping statistics for 172.19.20.115:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 297ms, Average = 286ms
+
+Pinging 172.19.22.25 with 32 bytes of data:
+Reply from 172.19.22.25: bytes=32 time=302ms TTL=123
+Reply from 172.19.22.25: bytes=32 time=295ms TTL=123
+Reply from 172.19.22.25: bytes=32 time=312ms TTL=123
+Reply from 172.19.22.25: bytes=32 time=281ms TTL=123
+
+Ping statistics for 172.19.22.25:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 281ms, Maximum = 312ms, Average = 297ms
+
+Pinging 172.19.20.119 with 32 bytes of data:
+Reply from 172.19.20.119: bytes=32 time=280ms TTL=123
+Reply from 172.19.20.119: bytes=32 time=291ms TTL=123
+Reply from 172.19.20.119: bytes=32 time=335ms TTL=123
+Reply from 172.19.20.119: bytes=32 time=284ms TTL=123
+
+Ping statistics for 172.19.20.119:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 280ms, Maximum = 335ms, Average = 297ms
+
+Pinging 172.19.39.170 with 32 bytes of data:
+Reply from 172.19.39.170: bytes=32 time=279ms TTL=123
+Reply from 172.19.39.170: bytes=32 time=295ms TTL=123
+Reply from 172.19.39.170: bytes=32 time=279ms TTL=123
+Reply from 172.19.39.170: bytes=32 time=279ms TTL=123
+
+Ping statistics for 172.19.39.170:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 295ms, Average = 283ms
+
+Pinging 172.19.31.234 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.19.31.234:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging cnsou-v-0099632.sig.dom [172.19.101.31] with 32 bytes of data:
+Reply from 172.19.101.31: bytes=32 time=332ms TTL=123
+Reply from 172.19.101.31: bytes=32 time=303ms TTL=123
+Reply from 172.19.101.31: bytes=32 time=309ms TTL=123
+Reply from 172.19.101.31: bytes=32 time=294ms TTL=123
+
+Ping statistics for 172.19.101.31:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 294ms, Maximum = 332ms, Average = 309ms
+
+Pinging 172.19.50.9 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.19.50.9:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging 172.19.154.57 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.19.154.57:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneu-v-0109938.sig.dom [172.22.6.24] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.6.24:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneuvmas055.sig.dom [172.22.8.65] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.8.65:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneuvmas051.sig.dom [172.22.8.151] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.8.151:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneuvmdb044.sig.dom [172.22.8.244] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.8.244:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneuvmdb043.sig.dom [172.22.8.243] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.8.243:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging chneu-c-0088349.sig.dom [172.22.20.25] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.22.20.25:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging brcwbvmas139.sig.dom [172.17.10.49] with 32 bytes of data:
+Reply from 172.17.10.49: bytes=32 time=274ms TTL=124
+Reply from 172.17.10.49: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.49: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.49: bytes=32 time=296ms TTL=124
+
+Ping statistics for 172.17.10.49:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 273ms, Maximum = 296ms, Average = 279ms
+
+Pinging brcwbvmas136.sig.dom [172.17.10.136] with 32 bytes of data:
+Reply from 172.17.10.136: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.136: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.136: bytes=32 time=274ms TTL=124
+Reply from 172.17.10.136: bytes=32 time=273ms TTL=124
+
+Ping statistics for 172.17.10.136:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 272ms, Maximum = 274ms, Average = 272ms
+
+Pinging BRCWBVMAS138.sig.dom [172.17.10.138] with 32 bytes of data:
+Reply from 172.17.10.138: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.138: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.138: bytes=32 time=289ms TTL=124
+Reply from 172.17.10.138: bytes=32 time=278ms TTL=124
+
+Ping statistics for 172.17.10.138:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 272ms, Maximum = 289ms, Average = 278ms
+
+Pinging BRCWBVMAS137.sig.dom [172.17.10.137] with 32 bytes of data:
+Reply from 172.17.10.137: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.137: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.137: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.137: bytes=32 time=272ms TTL=124
+
+Ping statistics for 172.17.10.137:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 272ms, Maximum = 273ms, Average = 272ms
+
+Pinging brcwbvmas146.sig.dom [172.17.10.146] with 32 bytes of data:
+Reply from 172.17.10.146: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.146: bytes=32 time=272ms TTL=124
+Reply from 172.17.10.146: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.146: bytes=32 time=273ms TTL=124
+
+Ping statistics for 172.17.10.146:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 272ms, Maximum = 273ms, Average = 272ms
+
+Pinging brcwbvmas135.sig.dom [172.17.10.135] with 32 bytes of data:
+Reply from 172.17.10.135: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.135: bytes=32 time=273ms TTL=124
+Reply from 172.17.10.135: bytes=32 time=282ms TTL=124
+Request timed out.
+
+Ping statistics for 172.17.10.135:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 273ms, Maximum = 282ms, Average = 276ms
+
+Pinging BRCWBWIPR101 [172.17.25.10] with 32 bytes of data:
+Reply from 172.17.25.10: bytes=32 time=291ms TTL=124
+Reply from 172.17.25.10: bytes=32 time=293ms TTL=124
+Reply from 172.17.25.10: bytes=32 time=279ms TTL=124
+Reply from 172.17.25.10: bytes=32 time=273ms TTL=124
+
+Ping statistics for 172.17.25.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 273ms, Maximum = 293ms, Average = 284ms
+
+Pinging atsaavmas060.sig.dom [172.16.1.60] with 32 bytes of data:
+Reply from 172.16.1.60: bytes=32 time=72ms TTL=124
+Reply from 172.16.1.60: bytes=32 time=54ms TTL=124
+Reply from 172.16.1.60: bytes=32 time=55ms TTL=124
+Reply from 172.16.1.60: bytes=32 time=53ms TTL=124
+
+Ping statistics for 172.16.1.60:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 72ms, Average = 58ms
+
+Pinging atsaavmas061.sig.dom [172.16.1.61] with 32 bytes of data:
+Reply from 172.16.1.61: bytes=32 time=59ms TTL=124
+Reply from 172.16.1.61: bytes=32 time=53ms TTL=124
+Reply from 172.16.1.61: bytes=32 time=53ms TTL=124
+Reply from 172.16.1.61: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.1.61:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 59ms, Average = 54ms
+
+Pinging atsaa-v-0089079.sig.dom [172.16.2.10] with 32 bytes of data:
+Reply from 172.16.2.10: bytes=32 time=57ms TTL=124
+Reply from 172.16.2.10: bytes=32 time=54ms TTL=124
+Reply from 172.16.2.10: bytes=32 time=53ms TTL=124
+Reply from 172.16.2.10: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.2.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 57ms, Average = 54ms
+
+Pinging atsaa-v-0089079.sig.dom [172.16.1.176] with 32 bytes of data:
+Reply from 172.16.1.176: bytes=32 time=54ms TTL=124
+Reply from 172.16.1.176: bytes=32 time=54ms TTL=124
+Reply from 172.16.1.176: bytes=32 time=53ms TTL=124
+Reply from 172.16.1.176: bytes=32 time=100ms TTL=124
+
+Ping statistics for 172.16.1.176:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 100ms, Average = 65ms
+
+Pinging atsaa-v-0089079.sig.dom [172.16.6.7] with 32 bytes of data:
+Reply from 172.16.6.7: bytes=32 time=53ms TTL=124
+Reply from 172.16.6.7: bytes=32 time=54ms TTL=124
+Reply from 172.16.6.7: bytes=32 time=53ms TTL=124
+Reply from 172.16.6.7: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.6.7:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 54ms, Average = 53ms
+
+Pinging atsaa-c-0111766.sig.dom [172.16.8.16] with 32 bytes of data:
+Reply from 172.16.8.16: bytes=32 time=55ms TTL=124
+Reply from 172.16.8.16: bytes=32 time=53ms TTL=124
+Reply from 172.16.8.16: bytes=32 time=69ms TTL=124
+Reply from 172.16.8.16: bytes=32 time=53ms TTL=124
+
+Ping statistics for 172.16.8.16:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 69ms, Average = 57ms
+
+Pinging atsaa-c-0096180.sig.dom [172.16.8.153] with 32 bytes of data:
+Reply from 172.16.8.153: bytes=32 time=53ms TTL=124
+Reply from 172.16.8.153: bytes=32 time=53ms TTL=124
+Reply from 172.16.8.153: bytes=32 time=53ms TTL=124
+Reply from 172.16.8.153: bytes=32 time=53ms TTL=124
+
+Ping statistics for 172.16.8.153:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 53ms, Average = 53ms
+
+Pinging atsaa-c-0096165.sig.dom [172.16.10.38] with 32 bytes of data:
+Reply from 172.16.10.38: bytes=32 time=53ms TTL=124
+Reply from 172.16.10.38: bytes=32 time=53ms TTL=124
+Reply from 172.16.10.38: bytes=32 time=53ms TTL=124
+Reply from 172.16.10.38: bytes=32 time=53ms TTL=124
+
+Ping statistics for 172.16.10.38:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 53ms, Average = 53ms
+
+Pinging atsaa-c-0096205.sig.dom [172.16.10.50] with 32 bytes of data:
+Reply from 172.16.10.50: bytes=32 time=53ms TTL=124
+Reply from 172.16.10.50: bytes=32 time=54ms TTL=124
+Reply from 172.16.10.50: bytes=32 time=53ms TTL=124
+Reply from 172.16.10.50: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.10.50:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 54ms, Average = 53ms
+
+Pinging atsaa-v-0113268.sig.dom [172.16.25.32] with 32 bytes of data:
+Reply from 172.16.25.32: bytes=32 time=54ms TTL=124
+Reply from 172.16.25.32: bytes=32 time=53ms TTL=124
+Reply from 172.16.25.32: bytes=32 time=53ms TTL=124
+Reply from 172.16.25.32: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.25.32:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 54ms, Average = 53ms
+
+Pinging atsaa-v-0111654.sig.dom [172.16.25.228] with 32 bytes of data:
+Reply from 172.16.25.228: bytes=32 time=70ms TTL=124
+Reply from 172.16.25.228: bytes=32 time=53ms TTL=124
+Reply from 172.16.25.228: bytes=32 time=53ms TTL=124
+Reply from 172.16.25.228: bytes=32 time=53ms TTL=124
+
+Ping statistics for 172.16.25.228:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 70ms, Average = 57ms
+
+Pinging atsaa-c-0096199.sig.dom [172.16.25.134] with 32 bytes of data:
+Reply from 172.16.25.134: bytes=32 time=53ms TTL=124
+Reply from 172.16.25.134: bytes=32 time=55ms TTL=124
+Reply from 172.16.25.134: bytes=32 time=66ms TTL=124
+Reply from 172.16.25.134: bytes=32 time=54ms TTL=124
+
+Ping statistics for 172.16.25.134:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 66ms, Average = 57ms
+
+Pinging delinvmas071.sig.dom [10.1.10.81] with 32 bytes of data:
+Reply from 10.1.10.81: bytes=32 time=165ms TTL=123
+Reply from 10.1.10.81: bytes=32 time=32ms TTL=123
+Reply from 10.1.10.81: bytes=32 time=31ms TTL=123
+Reply from 10.1.10.81: bytes=32 time=35ms TTL=123
+
+Ping statistics for 10.1.10.81:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 165ms, Average = 65ms
+
+Pinging delinvmas065.sig.dom [10.1.10.75] with 32 bytes of data:
+Reply from 10.1.10.75: bytes=32 time=38ms TTL=123
+Reply from 10.1.10.75: bytes=32 time=38ms TTL=123
+Reply from 10.1.10.75: bytes=32 time=71ms TTL=123
+Reply from 10.1.10.75: bytes=32 time=42ms TTL=123
+
+Ping statistics for 10.1.10.75:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 38ms, Maximum = 71ms, Average = 47ms
+
+Pinging delinvmfs244.sig.dom [10.1.10.204] with 32 bytes of data:
+Reply from 10.1.10.204: bytes=32 time=41ms TTL=123
+Reply from 10.1.10.204: bytes=32 time=34ms TTL=123
+Reply from 10.1.10.204: bytes=32 time=33ms TTL=123
+Reply from 10.1.10.204: bytes=32 time=69ms TTL=123
+
+Ping statistics for 10.1.10.204:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 69ms, Average = 44ms
+
+Pinging delin-v-0075660.sig.dom [10.1.10.248] with 32 bytes of data:
+Reply from 10.1.10.248: bytes=32 time=32ms TTL=123
+Reply from 10.1.10.248: bytes=32 time=36ms TTL=123
+Reply from 10.1.10.248: bytes=32 time=32ms TTL=123
+Reply from 10.1.10.248: bytes=32 time=52ms TTL=123
+
+Ping statistics for 10.1.10.248:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 52ms, Average = 38ms
+
+Pinging delinvmfs042.sig.dom [10.1.10.251] with 32 bytes of data:
+Reply from 10.1.10.251: bytes=32 time=52ms TTL=123
+Reply from 10.1.10.251: bytes=32 time=31ms TTL=123
+Reply from 10.1.10.251: bytes=32 time=33ms TTL=123
+Reply from 10.1.10.251: bytes=32 time=36ms TTL=123
+
+Ping statistics for 10.1.10.251:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 52ms, Average = 38ms
+
+Pinging delinvmas206.sig.dom [10.1.10.206] with 32 bytes of data:
+Reply from 10.1.10.206: bytes=32 time=32ms TTL=123
+Reply from 10.1.10.206: bytes=32 time=45ms TTL=123
+Reply from 10.1.10.206: bytes=32 time=67ms TTL=123
+Reply from 10.1.10.206: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.10.206:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 67ms, Average = 44ms
+
+Pinging delinvmas240.sig.dom [10.1.10.250] with 32 bytes of data:
+Reply from 10.1.10.250: bytes=32 time=40ms TTL=123
+Reply from 10.1.10.250: bytes=32 time=43ms TTL=123
+Reply from 10.1.10.250: bytes=32 time=34ms TTL=123
+Reply from 10.1.10.250: bytes=32 time=40ms TTL=123
+
+Ping statistics for 10.1.10.250:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 43ms, Average = 39ms
+
+Pinging delinvmas207.sig.dom [10.1.10.207] with 32 bytes of data:
+Reply from 10.1.10.207: bytes=32 time=34ms TTL=123
+Reply from 10.1.10.207: bytes=32 time=100ms TTL=123
+Reply from 10.1.10.207: bytes=32 time=103ms TTL=123
+Reply from 10.1.10.207: bytes=32 time=36ms TTL=123
+
+Ping statistics for 10.1.10.207:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 103ms, Average = 68ms
+
+Pinging delinvmas498.sig.dom [10.1.11.68] with 32 bytes of data:
+Reply from 10.1.11.68: bytes=32 time=73ms TTL=123
+Reply from 10.1.11.68: bytes=32 time=42ms TTL=123
+Reply from 10.1.11.68: bytes=32 time=37ms TTL=123
+Reply from 10.1.11.68: bytes=32 time=36ms TTL=123
+
+Ping statistics for 10.1.11.68:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 36ms, Maximum = 73ms, Average = 47ms
+
+Pinging delinvmas306.sig.dom [10.1.11.66] with 32 bytes of data:
+Reply from 10.1.11.66: bytes=32 time=32ms TTL=123
+Reply from 10.1.11.66: bytes=32 time=77ms TTL=123
+Reply from 10.1.11.66: bytes=32 time=32ms TTL=123
+Reply from 10.1.11.66: bytes=32 time=75ms TTL=123
+
+Ping statistics for 10.1.11.66:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 77ms, Average = 54ms
+
+Pinging delinvmdb047.sig.dom [10.1.11.47] with 32 bytes of data:
+Reply from 10.1.11.47: bytes=32 time=64ms TTL=123
+Reply from 10.1.11.47: bytes=32 time=34ms TTL=123
+Reply from 10.1.11.47: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.47: bytes=32 time=43ms TTL=123
+
+Ping statistics for 10.1.11.47:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 64ms, Average = 43ms
+
+Pinging delinvmas546.sig.dom [10.1.11.46] with 32 bytes of data:
+Reply from 10.1.11.46: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.46: bytes=32 time=65ms TTL=123
+Reply from 10.1.11.46: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.46: bytes=32 time=42ms TTL=123
+
+Ping statistics for 10.1.11.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 65ms, Average = 42ms
+
+Pinging delinvmdb085.sig.dom [10.1.11.85] with 32 bytes of data:
+Reply from 10.1.11.85: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.85: bytes=32 time=35ms TTL=123
+Reply from 10.1.11.85: bytes=32 time=44ms TTL=123
+Reply from 10.1.11.85: bytes=32 time=35ms TTL=123
+
+Ping statistics for 10.1.11.85:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 44ms, Average = 36ms
+
+Pinging delinvmdb090.sig.dom [10.1.11.90] with 32 bytes of data:
+Reply from 10.1.11.90: bytes=32 time=85ms TTL=123
+Reply from 10.1.11.90: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.90: bytes=32 time=80ms TTL=123
+Reply from 10.1.11.90: bytes=32 time=55ms TTL=123
+
+Ping statistics for 10.1.11.90:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 85ms, Average = 62ms
+
+Pinging delinvmdb091.sig.dom [10.1.11.91] with 32 bytes of data:
+Reply from 10.1.11.91: bytes=32 time=62ms TTL=123
+Reply from 10.1.11.91: bytes=32 time=42ms TTL=123
+Reply from 10.1.11.91: bytes=32 time=49ms TTL=123
+Reply from 10.1.11.91: bytes=32 time=61ms TTL=123
+
+Ping statistics for 10.1.11.91:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 42ms, Maximum = 62ms, Average = 53ms
+
+Pinging delinvmws194.sig.dom [10.1.11.211] with 32 bytes of data:
+Reply from 10.1.11.211: bytes=32 time=38ms TTL=123
+Reply from 10.1.11.211: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.211: bytes=32 time=66ms TTL=123
+Reply from 10.1.11.211: bytes=32 time=42ms TTL=123
+
+Ping statistics for 10.1.11.211:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 66ms, Average = 44ms
+
+Pinging delinvmws364.sig.dom [10.1.11.212] with 32 bytes of data:
+Reply from 10.1.11.212: bytes=32 time=50ms TTL=123
+Reply from 10.1.11.212: bytes=32 time=68ms TTL=123
+Reply from 10.1.11.212: bytes=32 time=72ms TTL=123
+Reply from 10.1.11.212: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.11.212:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 72ms, Average = 55ms
+
+Pinging delinwias224.sig.dom [10.1.11.224] with 32 bytes of data:
+Reply from 10.1.11.224: bytes=32 time=35ms TTL=123
+Reply from 10.1.11.224: bytes=32 time=89ms TTL=123
+Reply from 10.1.11.224: bytes=32 time=31ms TTL=123
+Reply from 10.1.11.224: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.11.224:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 89ms, Average = 46ms
+
+Pinging DELINVMWS221 [10.1.11.213] with 32 bytes of data:
+Reply from 10.1.11.213: bytes=32 time=34ms TTL=123
+Reply from 10.1.11.213: bytes=32 time=33ms TTL=123
+Reply from 10.1.11.213: bytes=32 time=34ms TTL=123
+Reply from 10.1.11.213: bytes=32 time=33ms TTL=123
+
+Ping statistics for 10.1.11.213:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 34ms, Average = 33ms
+
+Pinging DELINWIPR116 [10.1.27.10] with 32 bytes of data:
+Reply from 10.1.27.10: bytes=32 time=33ms TTL=123
+Reply from 10.1.27.10: bytes=32 time=40ms TTL=123
+Reply from 10.1.27.10: bytes=32 time=33ms TTL=123
+Reply from 10.1.27.10: bytes=32 time=39ms TTL=123
+
+Ping statistics for 10.1.27.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 40ms, Average = 36ms
+
+Pinging DELINWIPR115 [10.1.27.9] with 32 bytes of data:
+Reply from 10.1.27.9: bytes=32 time=39ms TTL=123
+Request timed out.
+Reply from 10.1.27.9: bytes=32 time=42ms TTL=123
+Reply from 10.1.27.9: bytes=32 time=56ms TTL=123
+
+Ping statistics for 10.1.27.9:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 39ms, Maximum = 56ms, Average = 45ms
+
+Pinging delin-c-0100933.sig.dom [10.1.28.52] with 32 bytes of data:
+Reply from 10.1.28.52: bytes=32 time=64ms TTL=123
+Request timed out.
+Reply from 10.1.28.52: bytes=32 time=87ms TTL=123
+Reply from 10.1.28.52: bytes=32 time=46ms TTL=123
+
+Ping statistics for 10.1.28.52:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 46ms, Maximum = 87ms, Average = 65ms
+
+Pinging delin-c-0108439.sig.dom [10.1.21.177] with 32 bytes of data:
+Reply from 10.1.21.177: bytes=32 time=57ms TTL=123
+Reply from 10.1.21.177: bytes=32 time=42ms TTL=123
+Reply from 10.1.21.177: bytes=32 time=41ms TTL=123
+Reply from 10.1.21.177: bytes=32 time=70ms TTL=123
+
+Ping statistics for 10.1.21.177:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 41ms, Maximum = 70ms, Average = 52ms
+
+Pinging 10.1.29.100 with 32 bytes of data:
+Reply from 10.1.29.100: bytes=32 time=70ms TTL=123
+Reply from 10.1.29.100: bytes=32 time=77ms TTL=123
+Reply from 10.1.29.100: bytes=32 time=35ms TTL=123
+Reply from 10.1.29.100: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.29.100:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 77ms, Average = 53ms
+
+Pinging delin-c-0095085.sig.dom [10.1.32.76] with 32 bytes of data:
+Reply from 10.1.32.76: bytes=32 time=33ms TTL=123
+Reply from 10.1.32.76: bytes=32 time=53ms TTL=123
+Reply from 10.1.32.76: bytes=32 time=43ms TTL=123
+Reply from 10.1.32.76: bytes=32 time=38ms TTL=123
+
+Ping statistics for 10.1.32.76:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 53ms, Average = 41ms
+
+Pinging delin-c-0095129.sig.dom [10.1.33.29] with 32 bytes of data:
+Reply from 10.1.33.29: bytes=32 time=36ms TTL=123
+Reply from 10.1.33.29: bytes=32 time=32ms TTL=123
+Reply from 10.1.33.29: bytes=32 time=61ms TTL=123
+Reply from 10.1.33.29: bytes=32 time=55ms TTL=123
+
+Ping statistics for 10.1.33.29:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 61ms, Average = 46ms
+
+Pinging delin-c-0095064.sig.dom [10.1.33.65] with 32 bytes of data:
+Reply from 10.1.33.65: bytes=32 time=76ms TTL=123
+Reply from 10.1.33.65: bytes=32 time=60ms TTL=123
+Reply from 10.1.33.65: bytes=32 time=31ms TTL=123
+Reply from 10.1.33.65: bytes=32 time=33ms TTL=123
+
+Ping statistics for 10.1.33.65:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 76ms, Average = 50ms
+
+Pinging delin-c-0107678.sig.dom [10.1.33.139] with 32 bytes of data:
+Reply from 10.1.33.139: bytes=32 time=33ms TTL=123
+Reply from 10.1.33.139: bytes=32 time=33ms TTL=123
+Reply from 10.1.33.139: bytes=32 time=31ms TTL=123
+Reply from 10.1.33.139: bytes=32 time=35ms TTL=123
+
+Ping statistics for 10.1.33.139:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 35ms, Average = 33ms
+
+Pinging delin-c-0095205.sig.dom [10.1.33.84] with 32 bytes of data:
+Reply from 10.1.33.84: bytes=32 time=34ms TTL=123
+Reply from 10.1.33.84: bytes=32 time=36ms TTL=123
+Reply from 10.1.33.84: bytes=32 time=32ms TTL=123
+Reply from 10.1.33.84: bytes=32 time=33ms TTL=123
+
+Ping statistics for 10.1.33.84:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 36ms, Average = 33ms
+
+Pinging delin-c-0089227.sig.dom [10.1.36.41] with 32 bytes of data:
+Reply from 10.1.36.41: bytes=32 time=33ms TTL=123
+Reply from 10.1.36.41: bytes=32 time=80ms TTL=123
+Reply from 10.1.36.41: bytes=32 time=32ms TTL=123
+Reply from 10.1.36.41: bytes=32 time=34ms TTL=123
+
+Ping statistics for 10.1.36.41:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 80ms, Average = 44ms
+
+Pinging delin-c-0095186.sig.dom [10.1.36.136] with 32 bytes of data:
+Reply from 10.1.36.136: bytes=32 time=76ms TTL=123
+Reply from 10.1.36.136: bytes=32 time=32ms TTL=123
+Reply from 10.1.36.136: bytes=32 time=33ms TTL=123
+Reply from 10.1.36.136: bytes=32 time=35ms TTL=123
+
+Ping statistics for 10.1.36.136:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 76ms, Average = 44ms
+
+Pinging 10.1.38.112 with 32 bytes of data:
+Reply from 10.1.38.112: bytes=32 time=33ms TTL=123
+Reply from 10.1.38.112: bytes=32 time=32ms TTL=123
+Reply from 10.1.38.112: bytes=32 time=31ms TTL=123
+Reply from 10.1.38.112: bytes=32 time=52ms TTL=123
+
+Ping statistics for 10.1.38.112:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 52ms, Average = 37ms
+
+Pinging 10.1.38.124 with 32 bytes of data:
+Reply from 10.1.38.124: bytes=32 time=49ms TTL=123
+Reply from 10.1.38.124: bytes=32 time=33ms TTL=123
+Reply from 10.1.38.124: bytes=32 time=33ms TTL=123
+Reply from 10.1.38.124: bytes=32 time=36ms TTL=123
+
+Ping statistics for 10.1.38.124:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 49ms, Average = 37ms
+
+Pinging 10.1.42.76 with 32 bytes of data:
+Reply from 10.1.42.76: bytes=32 time=42ms TTL=123
+Reply from 10.1.42.76: bytes=32 time=46ms TTL=123
+Reply from 10.1.42.76: bytes=32 time=97ms TTL=123
+Reply from 10.1.42.76: bytes=32 time=33ms TTL=123
+
+Ping statistics for 10.1.42.76:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 97ms, Average = 54ms
+
+Pinging 10.1.43.77 with 32 bytes of data:
+Reply from 10.1.43.77: bytes=32 time=42ms TTL=123
+Reply from 10.1.43.77: bytes=32 time=31ms TTL=123
+Reply from 10.1.43.77: bytes=32 time=54ms TTL=123
+Reply from 10.1.43.77: bytes=32 time=37ms TTL=123
+
+Ping statistics for 10.1.43.77:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 54ms, Average = 41ms
+
+Pinging delin-c-0095068.sig.dom [10.1.43.208] with 32 bytes of data:
+Reply from 10.1.43.208: bytes=32 time=35ms TTL=123
+Reply from 10.1.43.208: bytes=32 time=31ms TTL=123
+Reply from 10.1.43.208: bytes=32 time=31ms TTL=123
+Reply from 10.1.43.208: bytes=32 time=75ms TTL=123
+
+Ping statistics for 10.1.43.208:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 75ms, Average = 43ms
+
+Pinging 10.1.45.124 with 32 bytes of data:
+Reply from 10.1.45.124: bytes=32 time=34ms TTL=123
+Reply from 10.1.45.124: bytes=32 time=42ms TTL=123
+Reply from 10.1.45.124: bytes=32 time=32ms TTL=123
+Reply from 10.1.45.124: bytes=32 time=72ms TTL=123
+
+Ping statistics for 10.1.45.124:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 72ms, Average = 45ms
+
+Pinging DELIN-C-0097093 [10.1.48.97] with 32 bytes of data:
+Reply from 10.1.48.97: bytes=32 time=98ms TTL=123
+Reply from 10.1.48.97: bytes=32 time=115ms TTL=123
+Reply from 10.1.48.97: bytes=32 time=33ms TTL=123
+Reply from 10.1.48.97: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.48.97:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 115ms, Average = 69ms
+
+Pinging DELIN-C-0094759 [10.1.48.80] with 32 bytes of data:
+Reply from 10.1.48.80: bytes=32 time=36ms TTL=123
+Reply from 10.1.48.80: bytes=32 time=42ms TTL=123
+Reply from 10.1.48.80: bytes=32 time=86ms TTL=123
+Reply from 10.1.48.80: bytes=32 time=38ms TTL=123
+
+Ping statistics for 10.1.48.80:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 36ms, Maximum = 86ms, Average = 50ms
+
+Pinging 10.1.48.209 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 10.1.48.209:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging 10.1.48.232 with 32 bytes of data:
+Reply from 10.1.48.232: bytes=32 time=35ms TTL=123
+Reply from 10.1.48.232: bytes=32 time=69ms TTL=123
+Reply from 10.1.48.232: bytes=32 time=37ms TTL=123
+Reply from 10.1.48.232: bytes=32 time=118ms TTL=123
+
+Ping statistics for 10.1.48.232:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 35ms, Maximum = 118ms, Average = 64ms
+
+Pinging 10.1.51.124 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 10.1.51.124:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Pinging delin-c-0108449.sig.dom [10.1.42.210] with 32 bytes of data:
+Reply from 10.1.42.210: bytes=32 time=34ms TTL=123
+Reply from 10.1.42.210: bytes=32 time=33ms TTL=123
+Reply from 10.1.42.210: bytes=32 time=31ms TTL=123
+Reply from 10.1.42.210: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.42.210:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 34ms, Average = 32ms
+
+Pinging delin-v-0088660.sig.dom [10.1.52.21] with 32 bytes of data:
+Reply from 10.1.52.21: bytes=32 time=38ms TTL=123
+Reply from 10.1.52.21: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.21: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.21: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.52.21:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 38ms, Average = 33ms
+
+Pinging frpar-v-0107095.sig.dom [10.1.52.22] with 32 bytes of data:
+Reply from 10.1.52.22: bytes=32 time=71ms TTL=123
+Reply from 10.1.52.22: bytes=32 time=71ms TTL=123
+Reply from 10.1.52.22: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.22: bytes=32 time=78ms TTL=123
+
+Ping statistics for 10.1.52.22:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 78ms, Average = 63ms
+
+Pinging delin-v-0082499.sig.dom [10.1.52.27] with 32 bytes of data:
+Reply from 10.1.52.27: bytes=32 time=95ms TTL=123
+Reply from 10.1.52.27: bytes=32 time=80ms TTL=123
+Request timed out.
+Reply from 10.1.52.27: bytes=32 time=71ms TTL=123
+
+Ping statistics for 10.1.52.27:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 71ms, Maximum = 95ms, Average = 82ms
+
+Pinging delin-v-0102006.sig.dom [10.1.52.25] with 32 bytes of data:
+Reply from 10.1.52.25: bytes=32 time=89ms TTL=123
+Reply from 10.1.52.25: bytes=32 time=92ms TTL=123
+Reply from 10.1.52.25: bytes=32 time=83ms TTL=123
+Reply from 10.1.52.25: bytes=32 time=34ms TTL=123
+
+Ping statistics for 10.1.52.25:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 92ms, Average = 74ms
+
+Pinging delin-c-0103540.sig.dom [10.1.52.23] with 32 bytes of data:
+Reply from 10.1.52.23: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.23: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.23: bytes=32 time=35ms TTL=123
+Request timed out.
+
+Ping statistics for 10.1.52.23:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 35ms, Average = 33ms
+
+Pinging delin-v-0065154.sig.dom [10.1.52.30] with 32 bytes of data:
+Reply from 10.1.52.30: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.30: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.30: bytes=32 time=37ms TTL=123
+Reply from 10.1.52.30: bytes=32 time=68ms TTL=123
+
+Ping statistics for 10.1.52.30:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 68ms, Average = 42ms
+
+Pinging delin-v-0082399.sig.dom [10.1.52.40] with 32 bytes of data:
+Reply from 10.1.52.40: bytes=32 time=34ms TTL=123
+Reply from 10.1.52.40: bytes=32 time=41ms TTL=123
+Reply from 10.1.52.40: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.40: bytes=32 time=43ms TTL=123
+
+Ping statistics for 10.1.52.40:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 43ms, Average = 37ms
+
+Pinging delin-c-0103557.sig.dom [10.1.52.48] with 32 bytes of data:
+Reply from 10.1.52.48: bytes=32 time=35ms TTL=123
+Reply from 10.1.52.48: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.48: bytes=32 time=66ms TTL=123
+Reply from 10.1.52.48: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.52.48:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 66ms, Average = 40ms
+
+Pinging delin-v-0107179.sig.dom [10.1.52.49] with 32 bytes of data:
+Reply from 10.1.52.49: bytes=32 time=50ms TTL=123
+Reply from 10.1.52.49: bytes=32 time=32ms TTL=123
+Reply from 10.1.52.49: bytes=32 time=32ms TTL=123
+Reply from 10.1.52.49: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.52.49:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 50ms, Average = 36ms
+
+Pinging delin-v-0107130.sig.dom [10.1.52.50] with 32 bytes of data:
+Reply from 10.1.52.50: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.50: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.50: bytes=32 time=43ms TTL=123
+Reply from 10.1.52.50: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.52.50:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 43ms, Average = 34ms
+
+Pinging delin-v-0107047.sig.dom [10.1.52.51] with 32 bytes of data:
+Reply from 10.1.52.51: bytes=32 time=32ms TTL=123
+Reply from 10.1.52.51: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.51: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.51: bytes=32 time=83ms TTL=123
+
+Ping statistics for 10.1.52.51:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 83ms, Average = 44ms
+
+Pinging delin-v-0107048.sig.dom [10.1.52.52] with 32 bytes of data:
+Reply from 10.1.52.52: bytes=32 time=82ms TTL=123
+Reply from 10.1.52.52: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.52: bytes=32 time=36ms TTL=123
+Reply from 10.1.52.52: bytes=32 time=36ms TTL=123
+
+Ping statistics for 10.1.52.52:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 82ms, Average = 46ms
+
+Pinging delin-c-0102536.sig.dom [10.1.52.57] with 32 bytes of data:
+Reply from 10.1.52.57: bytes=32 time=56ms TTL=123
+Reply from 10.1.52.57: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.57: bytes=32 time=31ms TTL=123
+Reply from 10.1.52.57: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.52.57:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 56ms, Average = 37ms
+
+Pinging delin-v-0099703.sig.dom [10.1.52.53] with 32 bytes of data:
+Reply from 10.1.52.53: bytes=32 time=118ms TTL=123
+Reply from 10.1.52.53: bytes=32 time=66ms TTL=123
+Reply from 10.1.52.53: bytes=32 time=33ms TTL=123
+Reply from 10.1.52.53: bytes=32 time=71ms TTL=123
+
+Ping statistics for 10.1.52.53:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 118ms, Average = 72ms
+
+Pinging 10.1.55.115 with 32 bytes of data:
+Reply from 10.1.55.115: bytes=32 time=34ms TTL=123
+Reply from 10.1.55.115: bytes=32 time=35ms TTL=123
+Reply from 10.1.55.115: bytes=32 time=37ms TTL=123
+Reply from 10.1.55.115: bytes=32 time=31ms TTL=123
+
+Ping statistics for 10.1.55.115:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 37ms, Average = 34ms
+
+Pinging DELINWIWS327 [10.1.56.112] with 32 bytes of data:
+Reply from 10.1.56.112: bytes=32 time=75ms TTL=123
+Reply from 10.1.56.112: bytes=32 time=32ms TTL=123
+Reply from 10.1.56.112: bytes=32 time=103ms TTL=123
+Reply from 10.1.56.112: bytes=32 time=43ms TTL=123
+
+Ping statistics for 10.1.56.112:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 103ms, Average = 63ms
+
+Pinging ISRA231060_MA [10.1.56.114] with 32 bytes of data:
+Reply from 10.1.56.114: bytes=32 time=32ms TTL=123
+Reply from 10.1.56.114: bytes=32 time=45ms TTL=123
+Reply from 10.1.56.114: bytes=32 time=33ms TTL=123
+Reply from 10.1.56.114: bytes=32 time=81ms TTL=123
+
+Ping statistics for 10.1.56.114:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 81ms, Average = 47ms
+
+Pinging delin-c-0094759.sig.dom [10.1.62.112] with 32 bytes of data:
+Reply from 10.1.62.112: bytes=32 time=34ms TTL=123
+Reply from 10.1.62.112: bytes=32 time=32ms TTL=123
+Reply from 10.1.62.112: bytes=32 time=76ms TTL=123
+Reply from 10.1.62.112: bytes=32 time=40ms TTL=123
+
+Ping statistics for 10.1.62.112:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 76ms, Average = 45ms
+
+Pinging DELIN-C-0094705 [10.1.65.26] with 32 bytes of data:
+Reply from 10.1.65.26: bytes=32 time=33ms TTL=123
+Reply from 10.1.65.26: bytes=32 time=33ms TTL=123
+Reply from 10.1.65.26: bytes=32 time=34ms TTL=123
+Reply from 10.1.65.26: bytes=32 time=33ms TTL=123
+
+Ping statistics for 10.1.65.26:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 34ms, Average = 33ms
+
+Pinging ESMAD-C-0083418 [10.1.70.27] with 32 bytes of data:
+Reply from 10.1.70.27: bytes=32 time=120ms TTL=123
+Reply from 10.1.70.27: bytes=32 time=136ms TTL=123
+Reply from 10.1.70.27: bytes=32 time=131ms TTL=123
+Reply from 10.1.70.27: bytes=32 time=120ms TTL=123
+
+Ping statistics for 10.1.70.27:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 120ms, Maximum = 136ms, Average = 126ms
+
+Pinging 10.1.71.68 with 32 bytes of data:
+Reply from 10.1.19.49: TTL expired in transit.
+Reply from 10.1.19.49: TTL expired in transit.
+Reply from 10.1.19.49: TTL expired in transit.
+Reply from 10.1.19.49: TTL expired in transit.
+
+Ping statistics for 10.1.71.68:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+
+Pinging 10.1.71.171 with 32 bytes of data:
+Reply from 10.1.71.171: bytes=32 time=65ms TTL=123
+Reply from 10.1.71.171: bytes=32 time=146ms TTL=123
+Reply from 10.1.71.171: bytes=32 time=63ms TTL=123
+Reply from 10.1.71.171: bytes=32 time=108ms TTL=123
+
+Ping statistics for 10.1.71.171:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 63ms, Maximum = 146ms, Average = 95ms
+
+Pinging 10.1.65.50 with 32 bytes of data:
+Reply from 10.1.65.50: bytes=32 time=32ms TTL=123
+Reply from 10.1.65.50: bytes=32 time=32ms TTL=123
+Reply from 10.1.65.50: bytes=32 time=34ms TTL=123
+Reply from 10.1.65.50: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.65.50:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 32ms, Maximum = 34ms, Average = 32ms
+
+Pinging 10.1.65.25 with 32 bytes of data:
+Reply from 10.1.65.25: bytes=32 time=32ms TTL=123
+Reply from 10.1.65.25: bytes=32 time=32ms TTL=123
+Reply from 10.1.65.25: bytes=32 time=31ms TTL=123
+Reply from 10.1.65.25: bytes=32 time=32ms TTL=123
+
+Ping statistics for 10.1.65.25:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 32ms, Average = 31ms

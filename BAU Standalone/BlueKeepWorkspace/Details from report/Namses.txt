@@ -1,0 +1,321 @@
+Name:    thrayvmas037.sig.dom
+Address:  172.20.10.37
+
+Name:    thrayvmas046.sig.dom
+Address:  172.20.10.56
+
+Name:    thrayvmas036.sig.dom
+Address:  172.20.10.36
+
+Name:    thrayvmas039.sig.dom
+Address:  172.20.10.39
+
+Name:    thray-c-0088694.sig.dom
+Address:  172.20.10.103
+
+Name:    thrayvmastst.sig.dom
+Address:  172.20.10.189
+
+Name:    thrayvmas028.sig.dom
+Address:  172.20.10.28
+
+Name:    thray-v-0099698.sig.dom
+Address:  172.20.10.253
+
+Name:    thbkk-c-vmtest.sig.dom
+
+Name:    saruhcwi.sig.dom
+Address:  172.21.8.110
+
+Name:    saruhvmas023.sig.dom
+Address:  172.21.8.123
+
+Name:    SARUHVMAS027.sig.dom
+Address:  172.21.8.127
+
+Name:    SARUHVMAS029.sig.dom
+Address:  172.21.8.129
+
+Name:    SARUHVMAS039.sig.dom
+Address:  172.21.8.139
+
+Name:    SARUH-V-0073776.sig.dom
+Address:  172.21.8.176
+
+Name:    SARUHVMAS030.sig.dom
+Address:  172.21.8.130
+
+Name:    SARUHVMAS040.sig.dom
+Address:  172.21.8.140
+
+Name:    nzwhkvmdb090.sig.dom
+Address:  10.125.2.90
+
+Name:    nzwhkvmdb017.sig.dom
+Address:  10.125.2.33
+
+Name:    nzwhkvmdb091.sig.dom
+Address:  10.125.2.101
+
+Name:    nzwhkvmdb023.sig.dom
+Address:  10.125.2.36
+
+Name:    dewitvmas101.sig.dom
+Address:  10.2.10.111
+
+Name:    dewitvmdb090.sig.dom
+Address:  10.2.10.50
+
+Name:    dewit-c-0078789.sig.dom
+Address:  10.2.21.35
+
+Name:    dewit-c-0110006.sig.dom
+Address:  10.2.70.86
+
+Name:    dewit-c-0110004.sig.dom
+Address:  10.2.70.84
+
+Name:    dewit-v-0096856.sig.dom
+Address:  10.2.24.47
+
+Name:    dewit-c-0111547.sig.dom
+Address:  10.2.70.88
+
+Server:  DELINVMDC103.sig.dom
+Address:  10.1.19.20
+
+Name:    dewit-c-0110002.sig.dom
+Address:  10.2.70.82
+
+Name:    dewit-c-0110005.sig.dom
+Address:  10.2.70.85
+
+Name:    dewit-c-0110001.sig.dom
+Address:  10.2.70.81
+
+Name:    dewit-c-0110003.sig.dom
+Address:  10.2.70.83
+
+Name:    dewit-c-0111546.sig.dom
+Address:  10.2.70.87
+
+Name:    dewitvmws114.sig.dom
+Address:  10.2.40.114
+
+Name:    CNSOUVMAS038.sig.dom
+Address:  172.19.5.78
+
+Name:    CNSOU-V-0107120.sig.dom
+Address:  172.19.10.70
+
+Name:    CNSOU-V-0042996.sig.dom
+Address:  172.19.10.113
+
+Name:    CNSOUVMTST2K8R2.sig.dom
+Address:  172.19.10.116
+
+Name:    cnsou-v-0099632.sig.dom
+Address:  172.19.101.31
+
+Name:    chneu-v-0109938.sig.dom
+Address:  172.22.6.24
+
+Name:    chneuvmas055.sig.dom
+Address:  172.22.8.65
+
+Name:    chneuvmas051.sig.dom
+Address:  172.22.8.151
+
+Name:    chneuvmdb044.sig.dom
+Address:  172.22.8.244
+
+Name:    chneuvmdb043.sig.dom
+Address:  172.22.8.243
+
+Name:    chneu-c-0088349.sig.dom
+Address:  172.22.20.25
+
+Name:    brcwbvmas139.sig.dom
+Address:  172.17.10.49
+
+Name:    brcwbvmas136.sig.dom
+Address:  172.17.10.136
+
+Name:    BRCWBVMAS138.sig.dom
+Address:  172.17.10.138
+
+Name:    BRCWBVMAS137.sig.dom
+Address:  172.17.10.137
+
+Name:    brcwbvmas146.sig.dom
+Address:  172.17.10.146
+
+Name:    brcwbvmas135.sig.dom
+Ad
+Name:    atsaavmas060.sig.dom
+Address:  172.16.1.60
+
+Name:    atsaavmas061.sig.dom
+Address:  172.16.1.61
+
+Name:    atsaa-v-0089079.sig.dom
+Address:  172.16.2.10
+
+Name:    atsaa-v-0089079.sig.dom
+Address:  172.16.1.176
+
+Name:    atsaa-v-0089079.sig.dom
+Address:  172.16.6.7
+
+Name:    atsaa-c-0111766.sig.dom
+Address:  172.16.8.16
+
+Name:    atsaa-c-0096180.sig.dom
+Address:  172.16.8.153
+
+Name:    atsaa-c-0096165.sig.dom
+Address:  172.16.10.38
+
+Name:    atsaa-c-0096205.sig.dom
+Address:  172.16.10.50
+
+Name:    atsaa-v-0113268.sig.dom
+Address:  172.16.25.32
+
+Name:    atsaa-v-0111654.sig.dom
+Address:  172.16.25.228
+
+Name:    atsaa-c-0096199.sig.dom
+Address:  172.16.25.134
+
+Name:    delinvmas071.sig.dom
+Address:  10.1.10.81
+
+Name:    delinvmas065.sig.dom
+Address:  10.1.10.75
+
+Name:    delinvmfs244.sig.dom
+Address:  10.1.10.204
+
+Name:    delin-v-0075660.sig.dom
+Address:  10.1.10.248
+
+Name:    delinvmfs042.sig.dom
+Address:  10.1.10.251
+
+Name:    delinvmas206.sig.dom
+Address:  10.1.10.206
+
+Name:    delinvmas240.sig.dom
+Address:  10.1.10.250
+
+Name:    delinvmas207.sig.dom
+Address:  10.1.10.207
+
+Name:    delinvmas498.sig.dom
+Address:  10.1.11.68
+
+Name:    delinvmas306.sig.dom
+Address:  10.1.11.66
+
+Name:    delinvmdb047.sig.dom
+Address:  10.1.11.47
+
+Name:    delinvmas546.sig.dom
+Address:  10.1.11.46
+
+Name:    delinvmdb085.sig.dom
+Address:  10.1.11.85
+
+Name:    delinvmdb090.sig.dom
+Address:  10.1.11.90
+
+Name:    delinvmdb091.sig.dom
+Address:  10.1.11.91
+
+Name:    delinvmws194.sig.dom
+Address:  10.1.11.211
+
+Name:    delinvmws364.sig.dom
+Address:  10.1.11.212
+
+Name:    delinwias224.sig.dom
+Address:  10.1.11.224
+
+Name:    delin-c-0100933.sig.dom
+Address:  10.1.28.52
+
+Name:    delin-c-0108439.sig.dom
+Address:  10.1.21.177
+
+Name:    delin-c-0095085.sig.dom
+Address:  10.1.32.76
+
+Name:    delin-c-0095129.sig.dom
+Address:  10.1.33.29
+
+Name:    delin-c-0095064.sig.dom
+Address:  10.1.33.65
+
+Name:    delin-c-0107678.sig.dom
+Address:  10.1.33.139
+
+Name:    delin-c-0095205.sig.dom
+Address:  10.1.33.84
+
+Name:    delin-c-0089227.sig.dom
+Address:  10.1.36.41
+
+Name:    delin-c-0095186.sig.dom
+Address:  10.1.36.136
+
+Name:    delin-c-0095068.sig.dom
+Address:  10.1.43.208
+
+Name:    delin-c-0108449.sig.dom
+Address:  10.1.42.210
+
+Name:    delin-v-0088660.sig.dom
+Address:  10.1.52.21
+
+Name:    frpar-v-0107095.sig.dom
+Address:  10.1.52.22
+
+Name:    delin-v-0082499.sig.dom
+Address:  10.1.52.27
+
+Name:    delin-v-0102006.sig.dom
+Address:  10.1.52.25
+
+Name:    delin-c-0103540.sig.dom
+Address:  10.1.52.23
+
+Name:    delin-v-0065154.sig.dom
+Address:  10.1.52.30
+
+Name:    delin-v-0082399.sig.dom
+Address:  10.1.52.40
+
+Name:    delin-c-0103557.sig.dom
+Address:  10.1.52.48
+
+Name:    delin-v-0107179.sig.dom
+Address:  10.1.52.49
+
+Name:    delin-v-0107130.sig.dom
+Address:  10.1.52.50
+
+Name:    delin-v-0107047.sig.dom
+Address:  10.1.52.51
+
+Name:    delin-v-0107048.sig.dom
+Address:  10.1.52.52
+
+Name:    delin-c-0102536.sig.dom
+Address:  10.1.52.57
+
+Name:    delin-v-0099703.sig.dom
+Address:  10.1.52.53
+
+Name:    delin-c-0094759.sig.dom
+Address:  10.1.62.112
