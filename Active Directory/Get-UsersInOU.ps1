@@ -20,15 +20,37 @@
 		This example lists all the users in the Local Users OU and exports them to a CSV.
 #>
 
-Param
-(
-	[Parameter(Mandatory=$false)]
-	[Alias('Path')][String[]]$OU="OU=Common Users,OU=Users,OU=Local Resources,OU=ROCLU,DC=sig,DC=dom"
+#---------------------------------------------------------[Script Parameters]------------------------------------------------------
 
+Param (
+  #Script parameters go here
+  [Parameter(Mandatory=$false)]
+  [Alias('Path')][String[]]$OU="OU=Common Users,OU=Users,OU=Local Resources,OU=ROCLU,DC=sig,DC=dom"
 )
 
+#---------------------------------------------------------[Initialisations]--------------------------------------------------------
+
+#Set Error Action to Silently Continue
+$ErrorActionPreference = 'SilentlyContinue'
+
+#Import Modules & Snap-ins
+
+Import-Module '.\Active Directory'
+
+#----------------------------------------------------------[Declarations]----------------------------------------------------------
+
+#Script Version
+$sScriptVersion = '1.0'
+
+#-----------------------------------------------------------[Functions]------------------------------------------------------------
 Function Get-UsersInOU($OU)
 {
 $users = Get-ADUser -SearchBase $OU -filter * | select Name,SAMAccountName
 $users
 }
+
+#-----------------------------------------------------------[Execution]------------------------------------------------------------
+
+#Script Execution goes here
+
+Get-UsersInOU

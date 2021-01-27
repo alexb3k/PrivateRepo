@@ -296,10 +296,10 @@
                 Write-Host "Assiging user: $($_.User) the the extension $($_.Extension), final number: $number$($_.Extension)"
 
 
-                Grant-CsOnlineVoiceRoutingPolicy -Identity $($_.User) -PolicyName "Sunrise Unlimited"
+                #Grant-CsOnlineVoiceRoutingPolicy -Identity $($_.User) -PolicyName "Sunrise Unlimited"
                 #Set-CsOnlineApplicationInstance -Identity $($_.User) -OnpremPhoneNumber "$number$($_.Extension)"
                 Get-CsOnlineUser -Identity $($_.User) | Set-CsUser -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI "tel:$number$($_.Extension)" 
-                #Get-CsOnlineUser -Identity  | Grant-CsOnlineVoiceRoutingPolicy -PolicyName "Sunrise Unlimited"
+                Get-CsOnlineUser -Identity $($_.User) | Grant-CsOnlineVoiceRoutingPolicy -PolicyName "Sunrise Unlimited"
 
                 
             }
@@ -361,6 +361,6 @@
   }
   #-----------------------------------------------------------[Execution]------------------------------------------------------------
   
-  Connect-To-Services
+  #Connect-To-Services
   Show-Menu
-  #Script Execution go7es here
+  #Script Execution goes here

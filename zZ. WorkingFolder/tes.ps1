@@ -85,13 +85,11 @@ $result = $host.ui.PromptForChoice($title, $message, $options, 0)
 
 	
 
-$a=get-content "C:\Users\RO10029\Desktop\BSC1.txt"
+$a=get-content .\SharedMailboxList.txt
 foreach($b in $a)
 {
 
-#New-Mailbox -Name $b -Alias $b –Shared -PrimarySmtpAddress "$b.bsccluj.msbookings@sig.biz" 
-Set-Mailbox -Identity "$b.bsccluj.msbookings@sig.biz" -Name "$b.bsccluj.msbookings" -Alias "$b.bsccluj.msbookings"
-}
+New-Mailbox -Name $b -Alias $b –Shared -PrimarySmtpAddress $b@$domainname
 
 #Set the Permissions
 	if ($PermissionType -eq 0)
@@ -159,10 +157,3 @@ Set-Mailbox -Identity "$b.bsccluj.msbookings@sig.biz" -Name "$b.bsccluj.msbookin
 }
 #Clean up session
 Get-PSSession | Remove-PSSession
-
-$a = gc "C:\\temp\test.txt"
-
-foreach($b in $a)
-{
-    Set-CASMailbox -Identity $b -OwaMailboxPolicy "BookingsCreators"
-}
