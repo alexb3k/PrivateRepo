@@ -1,0 +1,22 @@
+flowchart TD
+    A[Start Task Sequence] --> B[Initialize Variables & Gather Info]
+    B --> C[Preflight Checks]
+    C --> D[Format & Partition Disk]
+    D --> E[Apply OS Image]
+    E --> F[Apply Windows Settings]
+    F --> G[Join Domain & Network Settings]
+    G --> H{Drivers Strategy}
+    H --> I[Apply Driver Package (per model)]
+    H --> J[Auto Apply Drivers (fallback)]
+    I --> K[Pre-provision BitLocker (optional)]
+    J --> K
+    K --> L[Install ConfigMgr Client]
+    L --> M[Install Software Updates]
+    M --> N[Install Applications]
+    N --> O[Enable BitLocker]
+    O --> P[Cleanup & Reboot to Production]
+    P --> Q[End]
+
+    %% Styling for clarity
+    classDef optional fill:#f0f8ff,stroke:#339,stroke-width:1px;
+    class C,K optional;
