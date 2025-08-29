@@ -133,54 +133,64 @@ graph TB
 
 This diagram models the tiered support process, ensuring executives always have a clear escalation route and support workflow.
 
- **For hybrid and co-management environments** , supplement with Visio templates from trusted community sources, ensuring up-to-date network and security demarcations
+ **For hybrid and co-management environments** , will supplement with Visio diagrams, ensuring up-to-date network and security demarcations.
 
 
-4. RBAC and Executive Group Security Model
-Role-Based Access Control (RBAC) is non-negotiable for executive management. It ensures that device, app, and user management can be scoped tightly, limiting the risk of accidents or malicious admin actions.
+## 4. RBAC and Executive Group Security Model
+**Role-Based Access Control (RBAC)** is **non-negotiable** for executive management. It ensures that device, app, and user management can be scoped tightly, limiting the risk of accidents or malicious admin actions.
 
-A. Recommended Roles for Executive Pilot
-Role Name	Purpose	Assigned to	Scope (Groups/Tags)
-Intune Administrator	Global MDM/Intune control	Lead IT Admin	All devices, all users
-Policy and Profile Manager	Manage configuration and compliance profiles	Security Analyst	Executives, pilot groups
-Help Desk Operator	Remote support, limited policy visibility	Help Desk Tier 1	Executives, pilot groups only
-Endpoint Privilege Manager	Approve elevation requests	Senior IT Security	Executives
-Read Only Operator	Visibility only for auditing	Internal Audit	Executives
-Assign scope tags aligned to the "Executive" security group. Only users/groups assigned with the right tags will have permission to view or modify the pilot policy objects, minimizing risk of lateral movement or privilege escalation7.
+**A. Recommended Roles for Executive Pilot**
+
+|Role Name  |Purpose  |Assigned to  |Scope (Groups/Tags)  |
+|---------|---------|---------|---------|
+| Intune Administrator | Global MDM/Intune control | Lead IT Admin | All devices, all users |
+| Policy and Profile Manager | Manage configuration and compliance profiles | Security Analyst | Executives, pilot groups |
+| Help Desk Operator | Remote support, limited policy visibility | Help Desk Tier 1 | Executives, pilot groups only |
+| Endpoint Privilege Manager | Approve elevation requests | Senior IT Security | Executives |
+| Read Only Operator | Visibility only for auditing | Internal Audit | Executives |
+
+**Assign scope tags** aligned to the "Executive" security group. Only users/groups assigned with the right tags will have permission to view or modify the pilot policy objects, minimizing risk of lateral movement or privilege escalation.
 
 A typical group structure:
 
-Azure AD Group: Executive_Committee_Intune
+* Azure AD Group: Executive_Committee_Intune
 
-Scope tag: "ExecutivePilot"
+* Scope tag: "ExecutivePilot"
 
-Static assignment for targeted, tightly controlled pilot.
+* Static assignment for targeted, tightly controlled pilot.
 
-Zero Trust principle: Only explicitly authorized IT staff can manage or view executive group policies9.
+**Zero Trust principle:** Only explicitly authorized IT staff can manage or view executive group policies.
 
-5. Device Onboarding, Enrollment, and Autopilot Best Practices
-A. Device Onboarding Methods
+## 5. Device Onboarding, Enrollment, and Autopilot Best Practices
+
+
+**A. Device Onboarding Methods**
+
 For executives, Windows Autopilot is strongly recommended. Autopilot allows zero-touch provisioning:
 
 Devices are shipped directly to users or IT.
 
-Upon first boot, devices connect to the internet, enroll in Intune, receive configuration/profiles/apps automatically11.
+Upon first boot, devices connect to the internet, enroll in Intune, receive configuration/profiles/apps automatically.
 
-Key Recommendations for Onboarding:
-Registration: Hardware IDs for executive devices are registered in Autopilot before distribution.
+**Key Recommendations for Onboarding:**
 
-Profiles: Enrollment restrictions prevent non-approved devices/users.
+* **Registration:** Hardware IDs for executive devices are registered in Autopilot before distribution.
 
-Company Portal: Pre-installed or deployed as a required app for Self-Service support.
+* **Profiles:** Enrollment restrictions prevent non-approved devices/users.
 
-Network Profiles: Wi-Fi and VPN configuration pushed automatically.
+* **Company Portal:** Pre-installed or deployed as a required app for Self-Service support.
 
-Terms and Conditions: Acceptance required at first use.
+* **Network Profiles:** Wi-Fi and VPN configuration pushed automatically.
 
-Special cases (BYOD): Limited support for personal devices in pilot; encourage company-owned for initial rollout to ensure policy consistency.
+* **Terms and Conditions:** Acceptance required at first use.
 
-B. Autopilot and Enrollment Diagram
-mermaid
+**Special cases (BYOD):** Limited support for personal devices in pilot; encourage company-owned for initial rollout to ensure policy consistency.
+
+**B. Autopilot and Enrollment Diagram**
+
+**Windows pilot** will be out of scope for the curent implementation, as WDS is to be used instead, but I included it as I feel it holds value in the overall architecture design, even as a target objective.
+
+```mermaid
 sequenceDiagram
     participant ExecDevice as Executive Device
     participant Autopilot as Windows Autopilot
@@ -193,70 +203,84 @@ sequenceDiagram
     AzureAD->>Intune: Enrollment triggered
     Intune->>ExecDevice: MDM policies, apps, profiles
     ExecDevice-->>IT: Onboarding complete notification
-6. Recommended Intune Policies for Executive Users
-Executives require a precise balance: maximum security with minimal interference. The matrix below details a recommended baseline policy set for a high-privilege executive user group.
 
-A. Executive Intune Policy Matrix
-Policy Category	Setting/Enforcement	Justification
-Device Encryption	Require BitLocker (Windows), FileVault (macOS)	Prevent data theft in case of loss/theft
-Password Policy	Complex PIN (6+ chars), biometric unlock (if available)	Protect against direct device compromise; enable biometrics
-Firewall	Enable, block incoming connections	Zero Trust baseline, reduces lateral movement risk
-Defender/AV	Microsoft Defender for Endpoint: real-time/on-access	Protect against malware, ransomware12
-OS and App Updates	Force install updates within 7 days	Patch vulnerabilities rapidly. Executive devices are high-value targets
-Admin Account Management	Disable local admin, enable Just-in-Time elevation (EPM)	Prevent privilege escalation, enforce least-privilege
-App Control	Whitelist only approved apps (via Company Portal)	Prevent installation of risky or shadow IT apps
-Data Protection	Block copy/paste between corporate/personal apps, block Save-As (non-corp)	Data exfiltration prevention
-Secure Email	Deploy via managed profile (Outlook); force encryption	Prevent confidential data leakage. Automate secure setup
-MFA	Require for company resources, at every logon	Defend against credential theft
-Conditional Access	Block non-compliant/unmanaged device access	Only healthy, compliant devices can access data/platform16
-Loss Response	Remote wipe and selective wipe enabled	Fast response to device loss/theft
-VPN	Auto-configure, always-on if required	Encrypted traffic over untrusted networks
-Wi-Fi	Preconfigure corporate profile, auto-connect	Reduce phishing/rogue networks risk
-Compliance Reporting	Custom device compliance scripts (for advanced checks)	Exec devices may require extra scrutiny (e.g., TPM, BIOS, threat monitor)
-Rationale:
+```
 
-Use Intune’s Security Baselines for initial deployment and quickly harden the environment while minimizing manual configuration18.
+## 6. Recommended Intune Policies for Executive Users
 
-Layer in Settings Catalog for fine-tuned, platform-specific needs.
+Executives require a precise balance: **maximum security** with **minimal interference**. The matrix below details a **recommended baseline** policy set for a high-privilege executive user group.
 
-Leverage the OpenIntuneBaseline community files as reference for standard baseline settings and adapt to executive risk context19.
+**A. Executive Intune Policy Matrix**
 
-B. Policy Settings Table Example
-Policy Name	Enforcement	Executive Profile Recommendation
-Require BitLocker encryption	Enabled	All executive Windows devices
-Password complexity	High	6+ chars, changed every 90 days
-Firewall – all profiles	On	Drop all inbound except whitelisted ports
-Defender Real-Time	On	No exceptions
-Local Admin Block	On	Only Just-in-Time elevation via EPM
-Updates	Automatic, 7d	Install all security/critical updates fast
-App Install restrictions	Managed only	Only signed/approved apps for install
-Conditional Access	Strict	Must be compliant, require MFA everywhere
-Remote/Wipe Retire	Enabled	Immediate for lost device
-Each policy should be documented with rationale and enforcement mechanism in onboarding and compliance materials.
 
-7. Conditional Access & Zero Trust Integration
-For the executive group, conditional access is vital. High-privilege accounts are often the prime attack surface in targeted attacks.
+|Policy Category  |Setting/Enforcement  |Justification  |
+|---------|---------|---------|
+|Device Encryption     |Require BitLocker (Windows), FileVault (macOS)        |Prevent data theft in case of loss/theft         |
+|Password Policy     |Complex PIN (8+ chars), biometric unlock (if available)         |Protect against direct device compromise; enable biometrics         |
+|Firewall     |Enable, block incoming connections         |Zero Trust baseline, reduces lateral movement risk         |
+|AV     |CloudStrike: real-time/on-access         |Protect against malware, ransomware         |
+|OS and App Updates     |Force install updates within 7 days         |Patch vulnerabilities rapidly. Executive devices are high-value targets         |
+|Admin Account Management     |Disable local admin, enable Just-in-Time elevation (EPM)         |Prevent privilege escalation, enforce least-privilege         |
+|App Control |	Whitelist only approved apps (via Company Portal) |	Prevent installation of risky or shadow IT apps |
+|Data Protection |	Block copy/paste between corporate/personal apps, block Save-As (non-corp) |	Data exfiltration prevention |
+|Secure Email |	Deploy via managed profile (Outlook); force encryption|	Prevent confidential data leakage. Automate secure setup|
+|MFA|	Require for company resources, at every logon|	Defend against credential theft|
+|Conditional Access|	Block non-compliant/unmanaged device access|	Only healthy, compliant devices can access data/platform|
+|Loss Response|	Remote wipe and selective wipe enabled|	Fast response to device loss/theft|
+|VPN|	Auto-configure, always-on if required|	Encrypted traffic over untrusted networks|
+|Wi-Fi|	Preconfigure corporate profile, auto-connect|	Reduce phishing/rogue networks risk|
+|Compliance Reporting|	Custom device compliance scripts (for advanced checks)|	Exec devices may require extra scrutiny (e.g., TPM, BIOS, threat monitor)|
 
-A. CA Workflow Overview
-Key Conditional Access Rules:
+**Rationale:**
 
-Require device compliance and MFA for all executive group logins.
+* Use *Intune’s Security Baselines* for initial deployment and quickly harden the environment while minimizing manual configuration.
 
-Block legacy authentication.
+* Layer in **Settings Catalog** for fine-tuned, platform-specific needs.
 
-Restrict access to executive data from:
+* Leverage the OpenIntuneBaseline community files as reference for standard baseline settings and adapt to executive risk context.
 
-Non-compliant devices
+**B. Policy Settings Table Example**
 
-Non-corporate locations (geofencing if required)
 
-Non-Intune-enrolled devices
+|Policy Name  |Enforcement  |Executive Profile Recommendation  |
+|---------|---------|---------|
+|Require BitLocker encryption|	Enabled|	All executive Windows devices|
+|Password complexity|	High|	8+ chars, changed every 90 days|
+|Firewall – all profiles|	On|	Drop all inbound except whitelisted ports|
+|CrownStrike Real-Time|	On	|No exceptions|
+|Local Admin Block|	On|	Only Just-in-Time elevation via EPM |
+|Updates|	Automatic, 7d|	Install all security/critical updates fast|
+|App Install restrictions|	Managed only|	Only signed/approved apps for install|
+|Conditional Access|	Strict|	Must be compliant, require MFA everywhere|
+|Remote/Wipe Retire|	Enabled	|Immediate for lost device     |    
 
-App protection and session control for SaaS apps
+Each policy should be **documented with rationale and enforcement** mechanism in onboarding and compliance materials.
 
-B. Conditional Access Workflow (Mermaid)
+## 7. Conditional Access & Zero Trust Integration
 
-mermaid
+For the executive group, conditional access is **vital**. High-privilege accounts are often the prime attack surface in targeted attacks.
+
+**A. CA Workflow Overview**
+
+**Key Conditional Access Rules:**
+
+* Require device compliance and MFA for all executive group logins.
+
+* Block legacy authentication.
+
+* Restrict access to executive data from:
+
+    * Non-compliant devices
+
+    * Non-corporate locations (geofencing if required)
+
+    * Non-Intune-enrolled devices
+
+    * App protection and session control for SaaS apps
+
+**B. Conditional Access Workflow (Mermaid)**
+
+```mermaid
 flowchart TD
     UA[User attempts to access resource]
     CA1[Check device compliance status]
@@ -272,30 +296,34 @@ flowchart TD
     CA3-->|MFA Failed|CA4
     CA4-->|Allow|Success[Resource Accessed]
     CA4-->|Block|Fail[Access Denied]
-Zero Trust best practice:
+```
 
-Combine device compliance signals from Intune, risk signals from Defender for Endpoint, user risk level (from Entra/Identity Protection) to make adaptive access decisions14.
+**Zero Trust best practice:**
 
-Always verify, never trust: all signals must be positive before granting access, especially to sensitive apps or data stores15.
+* Combine device compliance signals from Intune, risk signals from CrowdStrike, user risk level (from Entra/Identity Protection) to make adaptive access decisions.
 
-8. Device Compliance Policies for High-Privilege Accounts
-Compliance policies define the attributes a device MUST meet to be considered safe for access.
+* Always verify, never trust: all signals must be positive before granting access, especially to sensitive apps or data stores15.
 
-A. Executive Policy Requirements
-OS version at or above mandated minimum (e.g., Windows 11 23H2+).
+## 8. Device Compliance Policies for High-Privilege Accounts
 
-Encryption (BitLocker/FileVault) enforced.
+**Compliance policies** define the attributes a device MUST meet to be considered safe for access.
 
-Security patch level current (set grace period, e.g., 7 days max).
+**A. Executive Policy Requirements**
 
-Antivirus and firewall active, up-to-date definitions.
+* OS version at or above mandated minimum (e.g., Windows 11 23H2+).
 
-No jailbreaking/rooting (iOS/Android).
+* Encryption (BitLocker/FileVault) enforced.
 
-Custom scripts (PowerShell/JSON): Check for enforced TPM, BIOS version, presence/absence of risky software, management agent health17.
+* Security patch level current (set grace period, e.g., 7 days max).
 
-Sample Custom Compliance JSON
-json
+* Antivirus and firewall active, up-to-date definitions.
+
+* No jailbreaking/rooting (iOS/Android).
+
+* Custom scripts (PowerShell/JSON): Check for enforced TPM, BIOS version, presence/absence of risky software, management agent health17.
+
+**Sample Custom Compliance JSON**
+```json
 {
   "Rules": [
     {
@@ -303,192 +331,185 @@ json
       "Operator": "IsEquals",
       "DataType": "Boolean",
       "Operand": true,
-      "MoreInfoUrl": "https://internal.helpdesk.example.com/TPM-info",
+      "MoreInfoUrl": "https://internal.helpdesk.solvias.com/TPM-info",
       "RemediationStrings": [{"Language":"en_US","Title":"TPM must be present and enabled.","Description":"Contact support to enable TPM."}]
     }
   ]
 }
-Combine JSON rules with PowerShell scripts for advanced/exec device compliance validation.
 
-B. Non-Compliance Handling
+```
+**Combine JSON rules with PowerShell scripts for advanced/exec device compliance validation.**
+
+**B. Non-Compliance Handling**
+
 Actions for non-compliance:
+* Immediate denial of access to corporate services.
+* Automated email/SMS notification to user.
+* Escalation to IT and risk office.
+* Grace period for remediation (set short for execs – e.g., 24 hours).
 
-Immediate denial of access to corporate services.
+## 9. Documentation Templates/Examples
 
-Automated email/SMS notification to user.
+Robust, executive-facing documentation enables both **efficient onboarding** and **swift incident response**. Microsoft provides templates in Word/Excel format covering deployment goals, rollout plans, compliance tracking, and communication. These need to be adapted to ***Solvias*** corporate communication (marketing) standards. Technical documentation to be handled by IT internally. (*As previously stated, this documentation was written in **markdown** with charts made in **mermaid**, but for in-depth documentation a **wiki** and **visio diagrams** are also necessary*)
 
-Escalation to IT and risk office.
+**A. Onboarding Document Example**
 
-Grace period for remediation (set short for execs – e.g., 24 hours).
+***I recommend an onboarding document table be developed and handed over for each case. This should contain:***
 
-9. Documentation Templates/Examples
-Robust, executive-facing documentation enables both efficient onboarding and swift incident response. Microsoft provides downloadable templates in Word/Excel format covering deployment goals, rollout plans, compliance tracking, and communication. Customize for your organization and pilot users.
+* Welcome message to Managed Devices for Executives
 
-A. Onboarding Document Example
-Welcome to Managed Devices for Executives (Sample Document)
+* Overview of new protection and productivity features
 
-Overview of new protection and productivity features
+* Device support contacts (IT Help Desk, Local (VIP) Support)
 
-Device support contacts (IT Help Desk)
+* Step-by-step: Onboarding, device enrollment, Company Portal usage
 
-Step-by-step: Autopilot onboarding, device enrollment, Company Portal usage
+* Acceptance of terms and conditions
 
-Acceptance of terms and conditions
+* Security do’s and don’ts (phishing, password, device lock), agreed by security team (or task-force)
 
-Security do’s and don’ts (phishing, password, device lock)
+***I can create a baseline for the template documents if/when required***
 
-Template sources: Intune Adoption Kit, official onboarding templates23
+**B. Compliance Policy Acknowledgment**
 
-B. Compliance Policy Acknowledgment
-Compliance Policy Description (Sample)
+**Compliance Policy Description**
 
-List of required controls (encryption, updates, password)
+* List of required controls (encryption, updates, password)
+* Instructions for self-remediation
+* FAQ: What happens if my device is non-compliant?
+* Automated link to device health portal (Company Portal)
 
-Instructions for self-remediation
+**C. Support Process Document Template**
 
-FAQ: What happens if my device is non-compliant?
+**Intune Executive Support Guide**
+* Tiered escalation table (Tiers 1–3, with contacts)
+* Flowchart of ticket escalation and incident management (ref: Figure in Architecture section)
+* Executive support SLA (e.g., 1-hour response)
+* Emergency/Breach contact methods
+* Self-service remediation guides
+  
+**D. Communication Plan**
 
-Automated link to device health portal (Company Portal)
 
-C. Support Process Document Template
-Intune Executive Support Guide
+|Phase  |Audience  |Message  |Method and Owner |
+|---------|---------|---------|---------|
+|Kickoff     |Executives         |Intune coming soon—benefits, dates, support info         | Email/Meeting	by CIO/IT project leader/members        |
+|Pre-enrollment     |Executives, IT pilot         |Step-by-step onboarding instructions         | Email, Portal  by IT Support      |
+|Enrollment     |Executives         |Device ready, how to get help         |Email, Chat by IT Support (IT Support ticket exemption durring project recommended)         |
+|Post-enrollment     |Executives         |What’s next, compliance reminders, feedback solicitation         |Email/Survey by IT Management and support         |
 
-Tiered escalation table (Tiers 1–3, with contacts)
+## 10.  Security Hardening and Advanced Zero Trust
 
-Flowchart of ticket escalation and incident management (ref: Figure in Architecture section)
+**The executive pilot must serve as a Zero Trust exemplar.** Tactics include:
+* Full encryption, with recovery keys securely escrowed (never stored with end-users).
+* Disable local admin (Just-in-Time elevation only via Endpoint Privilege Management/EPM).
+* Require MFA for admin actions and all resource access.
+* Enforce Just-In-Time/Just-Enough Administrative Access, with Multi-Administrator Approval (MAA) on sensitive actions (policy changes/app deployment to execs).
+* Block use of local/network guest accounts entirely.
+* Integrate Microsoft Defender for Endpoint for real-time device risk signals.
+* Routinely review admin RBAC assignments and audit logs for privilege creep.
+* Enforce session timeouts and automatic screen lock on inactivity.
+* Restrict device access to critical business apps (restrict access from unmanaged browsers/notebooks).
+* Implement Conditional Launch (app protection): Wipe business data after repeated failed authentication attempts.
+* Conduct regular security training for execs: phishing, social engineering, device loss protocols.
 
-Executive support SLA (e.g., 1-hour response)
+## 11. Monitoring, Reporting, and Alerting
 
-Emergency/Breach contact methods
+**A. Native Intune Monitoring Tools**
 
-Self-service remediation guides
+* **Device compliance dashboard:** Executive device health, compliance, and risk breakdown.
+* **Policy deployment/troubleshooting dashboard:** See which policies are applied, failed, or pending.
+* **Audit/Operational logs:** Track changes made to policies, device actions, and admin activities.
+* **Alerts for non-compliance, device loss, or admin escalation events.**
 
-See also: Microsoft’s support planning guidance for tiered support structure, training, and responsibilities.
+**B. Advanced Reporting**
 
-D. Communication Plan (Sample Table)
-Phase	Audience	Message	Method	Owner
-Kickoff	Executives	Intune coming soon—benefits, dates, support info	Email/Meeting	CIO/IT project
-Pre-enrollment	Executives, IT pilot	Step-by-step onboarding instructions	Email, Portal	IT Support
-Enrollment	Executives	Device ready, how to get help	Email, Chat	IT Support
-Post-enrollment	Executives	What’s next, compliance reminders, feedback solicitation	Email/Survey	IT Support
-Leverage downloadable communication/rollout plan templates from Microsoft and GitHub repositories for further customization22.
+* **Azure Log Analytics integration:** Export Intune logs to Log Analytics; create custom dashboards, real-time alerts, and integrated incident workflows.
+* **Kusto Query Language (KQL):** Track device compliance, onboarding trends, failed enrollments, policy deletions (for approval/escalation).
+* **Power BI integration:** Build executive-level graphical dashboards on key metrics (e.g., compliance trends, incident rates, SLA adherence).
+* **Pre-built Intune advanced reports:** Use operational, organizational, and historical reporting for patch compliance, incident tracking, and audit investigations.
 
-10. Security Hardening and Advanced Zero Trust
-The executive pilot must serve as a Zero Trust exemplar. Tactics include:
+**C. Alerting and Response**
 
-Full encryption, with recovery keys securely escrowed (never stored with end-users).
+* Proactive alerts to IT/security and executive assistants (e.g., when compliance is breached by an executive device).
+* Custom webhook integration for severe incident escalation (e.g., device wipe approval, policy override).
+* Use action groups in Azure Monitor for cross-team notifications.
 
-Disable local admin (Just-in-Time elevation only via Endpoint Privilege Management/EPM).
+## 12. Intune Licensing & Cost Management
 
-Require MFA for admin actions and all resource access.
+**Licensing Models:**
 
-Enforce Just-In-Time/Just-Enough Administrative Access, with Multi-Administrator Approval (MAA) on sensitive actions (policy changes/app deployment to execs).
+* **Microsoft Intune Plan 1:** Included in M365 E3/E5, EM+S E3/E5, Business Premium. Covers core MDM/MAM/security baseline functionality.
+* **Intune Plan 2:** Add-on; includes advanced compliance, specialty device management, Tunnel for MAM.
+* **Intune Suite:** All features, including Endpoint Privilege Management, Remote Help, Advanced Analytics, Enterprise App Management, and Cloud PKI.30.
 
-Block use of local/network guest accounts entirely.
+**Pricing:** request quote from *SoftwareOne*
 
-Integrate Microsoft Defender for Endpoint for real-time device risk signals.
+**Recommendation:**
 
-Routinely review admin RBAC assignments and audit logs for privilege creep.
+ Allocate Plan 1 for all pilot users; consider Intune Suite for IT/admins and executives needing advanced support (Remote Help, EPM, etc.). Track licensing with accurate group scoping to prevent over-assignment or licensing bloat.
 
-Enforce session timeouts and automatic screen lock on inactivity.
+## 13.  Scalability Planning and Enterprise Rollout
 
-Restrict device access to critical business apps (restrict access from unmanaged browsers/notebooks).
+Pilot learnings must form the **foundation for org-wide scale**:
+* **Document all settings, exceptions, and support tickets thoroughly.**
+* **Refine policy enforcement based on real-world executive feedback:**
+    * Identify friction and resolve automatable issues.
+    * Balance security with usability (tuning for future less-privileged user groups).
 
-Implement Conditional Launch (app protection): Wipe business data after repeated failed authentication attempts.
+* **Leverage dynamic groups and automated deployment rings** for phased department/location/device-type rollout.
+* **Maintain a library of reusable documentation templates and communication plans for each phase.**
+* **Monitor** for policy compliance drift; regular, scheduled reviews by security and risk team.
+* **Integrate with HR/onboarding/offboarding workflows** to automate device assignment, retire, wipe, and compliance tracking.
 
-Conduct regular security training for execs: phishing, social engineering, device loss protocols9.
+## 14. Critical Success Factors and Best Practice Summary
 
-11. Monitoring, Reporting, and Alerting
-A. Native Intune Monitoring Tools
-Device compliance dashboard: Executive device health, compliance, and risk breakdown.
+**Success depends upon:**
 
-Policy deployment/troubleshooting dashboard: See which policies are applied, failed, or pending.
+* **Readiness:** Clear goals, comprehensive risk assessment, and strong sponsorship from executive stakeholders.
+* **Documentation:** All policies, processes, roles, and support paths are documented, auditable, and versioned.
+* **Security:** Strict RBAC, CA, and compliance controls, enforced by principle of least privilege.
+* **User Experience:** Support, communication, and friction reduction for executives are prioritized to accelerate wider adoption.
+* **Monitoring:** Real-time insight into device health, compliance, and support metrics, with dashboards built for both IT operations and executive oversight.
+* **Adaptability:** Policies, workflows, and documentation are nimble—continuously improved post-pilot before broad rollout.
 
-Audit/Operational logs: Track changes made to policies, device actions, and admin activities.
+--- 
 
-Alerts for non-compliance, device loss, or admin escalation events.
+By following this plan, we can hopefully increase the odds we have a Microsoft Intune deployment that is secure, efficient, and tuned to executive expectations—yielding a scalable and resilient device management baseline for the entire organization. This comprehensive approach aligns with the latest Microsoft best practices, and security strategies underpinning Zero Trust, as demanded by the modern threat landscape and regulatory environment.
 
-B. Advanced Reporting
-Azure Log Analytics integration: Export Intune logs to Log Analytics; create custom dashboards, real-time alerts, and integrated incident workflows.
+**Key takeaways:**
 
-Kusto Query Language (KQL): Track device compliance, onboarding trends, failed enrollments, policy deletions (for approval/escalation)27.
+* Preparation, documentation, phased rollout, and executive-centric communication are as critical as technical policy settings.
+* RBAC and Conditional Access form the backbone of a secure, scalable deployment.
+* Continuous monitoring, real-world feedback, and iterative policy refinement are fundamental to expansion success.
 
-Power BI integration: Build executive-level graphical dashboards on key metrics (e.g., compliance trends, incident rates, SLA adherence).
+***I will include all references and resources for this document in the final implementation report.***
 
-Pre-built Intune advanced reports: Use operational, organizational, and historical reporting for patch compliance, incident tracking, and audit investigations.
+## 15. Appendix: Alex's notes
 
-C. Alerting and Response
-Proactive alerts to IT/security and executive assistants (e.g., when compliance is breached by an executive device).
+> _This section is intended for internal use only. It contains reflections, decisions, and rationale behind the document's structure and content._
 
-Custom webhook integration for severe incident escalation (e.g., device wipe approval, policy override).
+### Purpose of This Document
+This guide was created to support a structured rollout of Microsoft Intune across our organization. It aims to:
+* Provide a clear, step-by-step implementation framework
+* Align technical execution with compliance and security requirements
+* Serve as a living document for future updates and audits
 
-Use action groups in Azure Monitor for cross-team notifications.
+The audience includes IT administrators, security leads, and onboarding teams who need both strategic context and operational clarity.
 
-12. Intune Licensing & Cost Management
-Licensing Models:
+### Future Considerations
 
-Microsoft Intune Plan 1: Included in M365 E3/E5, EM+S E3/E5, Business Premium. Covers core MDM/MAM/security baseline functionality.
+* Add a change log section to track updates to policies and configurations over time.
+* Expand the guide with PowerShell automation scripts for bulk operations and reporting.
 
-Intune Plan 2: Add-on; includes advanced compliance, specialty device management, Tunnel for MAM.
-
-Intune Suite: All features, including Endpoint Privilege Management, Remote Help, Advanced Analytics, Enterprise App Management, and Cloud PKI.30.
-
-Pricing Table (approx.):
-
-Plan/Feature	Price/User/Month (USD)	Notes
-Plan 1	~$8	Often bundled in E3/E5
-Plan 2 (add-on)	~$4	Specialty/advanced
-Intune Suite (all features)	~$10	Advanced + add-ons
-Remote Help (add-on)	~$3.5	Per user
-Endpoint Privilege Mgmt	~$3	Per user
-Advanced Analytics	~$5	Per user
-Enterprise App Mgmt	~$2	Per user
-Recommendation: Allocate Plan 1 for all pilot users; consider Intune Suite for IT/admins and executives needing advanced support (Remote Help, EPM, etc.). Track licensing with accurate group scoping to prevent over-assignment or licensing bloat.
-
-13. Scalability Planning and Enterprise Rollout
-Pilot learnings must form the foundation for org-wide scale:
-
-Document all settings, exceptions, and support tickets thoroughly.
-
-Refine policy enforcement based on real-world executive feedback:
-
-Identify friction and resolve automatable issues.
-
-Balance security with usability (tuning for future less-privileged user groups).
-
-Leverage dynamic groups and automated deployment rings for phased department/location/device-type rollout.
-
-Maintain a library of reusable documentation templates and communication plans for each phase.
-
-Monitor for policy compliance drift; regular, scheduled reviews by security and risk team.
-
-Integrate with HR/onboarding/offboarding workflows to automate device assignment, retire, wipe, and compliance tracking.
-
-14. Critical Success Factors and Best Practice Summary
-Success depends upon:
-
-Readiness: Clear goals, comprehensive risk assessment, and strong sponsorship from executive stakeholders.
-
-Documentation: All policies, processes, roles, and support paths are documented, auditable, and versioned.
-
-Security: Strict RBAC, CA, and compliance controls, enforced by principle of least privilege.
-
-User Experience: Support, communication, and friction reduction for executives are prioritized to accelerate wider adoption.
-
-Monitoring: Real-time insight into device health, compliance, and support metrics, with dashboards built for both IT operations and executive oversight.
-
-Adaptability: Policies, workflows, and documentation are nimble—continuously improved post-pilot before broad rollout.
-
-By following this bulletproof plan, you ensure a Microsoft Intune deployment that is secure, efficient, and tuned to executive expectations—yielding a scalable and resilient device management baseline for the entire organization. This comprehensive approach aligns with the latest web-sourced best practices, table and communication templates from Microsoft, and security strategies underpinning Zero Trust, as demanded by the modern threat landscape and regulatory environment.
-
-Key takeaways:
-
-Preparation, documentation, phased rollout, and executive-centric communication are as critical as technical policy settings.
-
-RBAC and Conditional Access form the backbone of a secure, scalable deployment.
-
-Continuous monitoring, real-world feedback, and iterative policy refinement are fundamental to expansion success.
-
-References and resources for table templates, onboarding guides, Visio diagrams, and advanced policy samples can be found directly from the Microsoft Download Center, GitHub, and Microsoft Learn as cited throughout this report.
-
-See my thinking
+### Metadata
+```yaml
+---
+title: Intune Implementation Guide
+author: Alex Andrei
+version: 1.0
+last_updated: 2025-08-29
+status: living_document
+audience: IT Admins, Security Leads, EC members
+---
+```
